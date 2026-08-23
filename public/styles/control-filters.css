@@ -1,0 +1,171 @@
+/** * Form & Checkbox Styles */
+
+button{
+ display: inline-block;
+ border: 0;
+ font-weight: 400;
+ font-size:12px;
+ line-height: inherit;
+ border-radius: 5px;
+ cursor: pointer;
+ margin-bottom:3px;
+}
+
+button:focus {
+    outline: 0 none;
+}
+
+button.control {
+    text-align: left;
+    padding: 5px 5px 5px 28px; /* correct position in Chrome on Macbook */
+}
+
+.control {
+    position: relative;
+    display: inline-block;
+    background: rgba(0,0,0,.35);
+    cursor: pointer;
+    width:100%;
+}
+
+.control[data-filter]:after,
+.control[data-toggle]:after {
+    content: '';
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    margin: 0 auto;
+    border-radius: 2px;
+    background-color: rgba(255,255,255,.25);
+    border: 1px solid rgba(0,0,0,.5);
+    transition: background-color 150ms, border-color 150ms;
+
+}
+/* this must appear before subsequent alterations to states */
+
+.control:hover {
+    background-color: rgba(255,255,255,.1);
+    transition: background-color 0.5s ease;
+}
+
+.control:hover:after, .control:visited:after {
+    /*content: '\25CF';
+    font-family: 'Avenir LT Std 95 Black';
+    font-size: 30px;
+     line-height: 16px;  correct position in Chrome on Macbook - for Chrome on Windows should be 16px 
+    text-align: center;*/
+    width: 18px;
+    height: 18px;
+    border: 2px solid rgba(0,0,0,.5);
+    background-color: rgba(255,255,255,.75);
+    transition: background-color 0.5s ease;
+}
+.control:focus {
+    background-color: rgba(255,255,255,.175);
+    transition: background-color 0.33s ease;
+}
+.control:active {
+    background-color: rgba(255,255,255,.25); /* subtle indication of activation */
+    transition: background-color 0.33s ease;
+}
+ 
+.control:active:after {
+    content: ''; 
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 7px;
+    left: 6px;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 2px solid #333;
+    border-top-color: #17E5BD;
+    -webkit-animation:spin 1s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+    animation:spin 1s linear infinite;
+
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(720deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(720deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(720deg); transform:rotate(720deg); } }
+
+.mixitup-control-active {
+    background-color: rgba(255,255,255,.2);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.mixitup-control-active[data-toggle]:after {
+/*  content: '\002714'; /* tick character 
+ content: '\00AC';
+ font-family:'Avenir LT Std 95 Black';
+ color:rgba(0,0,0,.75);*/
+     background-color: #17E5BD;
+     background-image: url(../img/icons/icon-tick-dark.svg); /* reverted to image-based solution due to line-height differences between PC and Mac versions of Chrome creating an unacceptable  position difference for the original UTF text-based character */
+     background-repeat: no-repeat;
+     background-size: 11px;
+     background-position: center center;
+     transition: color 0.33s ease;
+}
+
+.mixitup-control-active[data-toggle]:hover:after {
+    /*content: '+';
+    font-size: 22px;
+    line-height: 0;
+     color:rgba(0,0,0,.75);*/
+    background-color: rgba(255,255,255,.5);
+    background-image: url(../img/icons/icon-plus-x-dark.svg); /* see note for psudeo-selector initial state */
+    background-size: 10px;
+    transition: color 0.33s ease;
+    transition: background-color 0.33s ease;  
+    transition: background-image 0.1s ease;    
+    border: 2px solid rgba(255,255,255,.05);
+}
+
+ 
+.mixitup-control-active[data-toggle]:active:after {
+    background: none;
+    border: 2px solid #333;
+    border-top-color: #17E5BD;
+}
+
+.checkmark {
+    display:inline-block;
+    width: 22px;
+    height:22px;
+}
+
+#list:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+.mix {
+    display: inline-block;
+    vertical-align: top;
+}
+.mix:before {
+    content: '';
+    /*  display: inline-block; */
+}
+
+.mixitup-fail-message {
+    top: 50%;
+    z-index: 1;
+    text-align: center;
+    transition: opacity 200ms;
+    pointer-events: none;
+        display: none;
+}
+.mixitup-container-failed .mixitup-fail-message {
+    display:inherit;
+}
+.auto-grid-4.mixitup-container-failed {
+    --auto-grid-min-size: initial;
+}
+
+table th {
+  font-weight: normal;
+}
