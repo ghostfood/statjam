@@ -9,7 +9,7 @@ const Layout = ({ children, siteTitle = "Statjam" }) => {
     <>
       <Header siteTitle={siteTitle} />
         <main>{children}</main>
-        <footer>
+        <footer class="d-flex justify-content-center align-items-center">
           © {new Date().getFullYear()}, Built with Astro
         </footer>
     </>
