@@ -1,0 +1,2627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+  <meta name="description" content="Fast facts for fuller findings. Collections of data for greater convenience and deeper analysis.">
+<meta name="keywords" content="glance, guide, data, table, information, statistics, visual, reference">
+<meta name="author" content="toshlist">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>At a glance - World nations population and migration</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="../../css/ataglance4.css">
+<link rel="stylesheet" type="text/css" href="../../css/grid-auto.css">
+<link rel="stylesheet" type="text/css" href="../../css/mod-clearfix.css">
+<link rel="stylesheet" type="text/css" href="../../css/mod-data-table.css">
+<link rel="stylesheet" type="text/css" href="../../css/webfonts.css">
+<link rel="stylesheet" type="text/css" href="../../css/specific/picture-flags-national.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700|Roboto+Condensed:300,400,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900" rel="stylesheet">
+<style type="text/css">
+
+td {
+	position: relative;
+}
+td.border-hi-lo,
+td.border-hi,
+td.border-hi-md,
+td.border-lo,
+td.border-lo-hi,
+td.border-lo-md,
+td.border-md-lo,
+td.border-md,
+td.border-md-hi {
+    position: relative;
+}
+
+td.border-hi-lo::before,
+td.border-hi::before,
+td.border-hi-md::before,
+td.border-hi-lo::after,
+td.border-hi::after,
+td.border-hi-md::after,
+td.border-lo-hi::before,
+td.border-lo::before,
+td.border-lo-md::before,
+td.border-lo-hi::after,
+td.border-lo::after,
+td.border-lo-md::after,
+td.border-md-hi::before,
+td.border-md::before,
+td.border-md-lo::before,
+td.border-md-hi::after,
+td.border-md::after,
+td.border-md-lo::after  {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: block;
+    top: -11px;
+    left: -1px;
+    /* background: rgba(255, 255, 255, .1); */
+    border: 2px solid transparent;
+    border-radius: 100%;
+    transform: rotate(320deg);
+    z-index: 0;
+    border-left: 2px solid gray;
+}
+td.border-hi-lo::after,
+td.border-hi::after{
+    left: unset;
+    right: -2px;
+    border-left: unset;
+    transform: rotate(45deg);
+}
+td.border-hi-lo::after {
+		left: unset;
+    right: -2px;
+    top: unset;
+    bottom: -14px;
+    border-left: unset;
+    transform: rotate(320deg);
+}
+
+td.border-lo-hi::before,
+td.border-lo::before,
+td.border-lo-md::before,
+td.border-lo-hi::after,
+td.border-lo::after,
+td.border-lo-md::after {
+    top: unset;
+    bottom: -12px;
+    transform: rotate(45deg);
+}
+td.border-lo-md::after {
+		top: unset;
+    left: unset;
+    right: -2px;
+    bottom: -12px;
+    transform: rotate(90deg);
+    border-radius: 0;
+}
+td.border-md-hi::after {
+		top: unset;
+    left: unset;
+    right: -2px;
+    bottom: -12px;
+    transform: rotate(90deg);
+}
+td.border-md-hi::before,
+td.border-md::before,
+td.border-md-lo::before,
+td.border-md-hi::after,
+td.border-md::after,
+td.border-md-lo::after {
+    top: unset;
+    bottom: 0px;
+}
+td.border-md-hi::before,
+td.border-md-lo::before,
+td.border-md::before,
+td.border-md::after {
+		top: unset;
+    left: -2px;
+    right: unset;
+    bottom: -12px;
+    transform: rotate(90deg);
+    border-radius: 0;
+}
+td.border-md::after {
+    left: unset;
+    right: -1px;
+}
+
+td.border-md-hi::after {
+    left: unset;
+    right: -2px;
+    bottom: 10px;
+    height: 32px;
+    width: 32px;
+    transform: rotate(220deg);
+}
+
+td.border-md-lo::after,
+td.border-lo::after,
+td.border-hi-lo::after {
+    top: unset;
+    left: unset;
+    right: -2px;
+    bottom: -20px;
+    height: 32px;
+    width: 32px;
+    transform: rotate(128deg);
+}
+td.border-hi-lo::after {
+    right: -2px;
+    bottom: -18px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid transparent;
+}
+td.border-hi::after {
+    left: unset;
+    right: -1px;
+    bottom: unset;
+    top: -15px;
+    height: 28px;
+    width: 28px;
+    transform: rotate(227deg);
+    border: 2px solid transparent;
+}
+td.border-hi-md::after {
+	left: unset;
+        top: unset;
+    right: -1px;
+    bottom: -12px;
+    transform: rotate(90deg);
+    border-radius: 0;
+}
+
+
+.point {
+    text-align: center;
+    min-width: 5px;
+    min-height:5px;
+    line-height: 1.25;
+    display: inline-block;
+    border-radius: 2px !important;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 5px;
+    transform: rotate(45deg);
+		translate: -50% 0;
+}
+.point::before,
+.point::after {
+position: absolute;
+    width: 3px;
+    height: 2px;
+    content: '';
+    display: block;
+    top: 0;
+    left: 2px;
+    background: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    transform: rotate(45deg);
+    z-index: 0;
+}
+.point > a {
+	display:block;
+	z-index:2;
+  font-size:11px;
+    line-height: 1;
+  color: #fff;
+}
+.point-xs {
+	height:8px;
+	width:8px;
+    border-radius: 1px !important;
+    top:7.5px;
+}
+.point-xs::before,
+.point-xs::after {
+    width: 6px;
+    left: -4px;
+    top: 8px;
+    transform: rotate(135deg);
+}
+
+.point-xs::after {
+    left: unset;
+    right: -2px;
+    top: 0px;
+    border-radius: 2px;
+}
+
+
+.point-sm {
+	height:12px;
+	width:12px;
+}
+
+.point-md {
+	height:16px;
+	width:16px;
+}
+
+.point.hue-red::before,
+.point.hue-red::after {
+	background: #C41230;
+}
+
+
+td.border-red::before,
+td.border-red::after,
+.border-left.border-left-red::before {
+	border-left-color: #C41230;
+}
+
+.border-red a {
+	color: #C41230;
+}
+
+.border-left::before {
+	position:absolute;
+	content:'';
+	display:block;
+	height:100%;
+	border-left:2px solid;
+	    top: 0px;
+    left: -1px;
+}
+</style>
+</head>
+
+<body class="hue-tanzanite banner-topright">
+<header class="container container-xl">
+  <div class="row">
+
+<div class="col-5 col-md-6 d-flex align-items-center">
+    <a href="/statjam/ataglance/" class="man pan" title="Go to At A Glance homepage">
+      <div class="d-inline-flex flex-fill align-items-center pax brsm">
+        <div class="pos-rel shade-50 disc-sm nav-arrow"></div>
+        <span class="mhs text-faint text-sm">AT A GLANCE</span>
+   </div>
+ </a>
+</div>
+
+<div class="col-7 col-md-6 d-flex align-items-center">
+      <div class="d-inline-flex flex-fill align-items-center justify-content-end">
+        <div class="mhm shown-md-up">statjam.uk/populations</div>
+        <input type="text" value="statjam.uk/populations" id="Input1">
+      <button id="shareBtn" onclick="sharePage()" class="link-button link-button-copy">Share this page</button>
+     </div>
+</div>
+</div>
+</header>
+<div class="container container-xl">
+  <div class="row">
+    <div class="col-xs-12">
+<h1 class="display-3">Populations and migration</h1>
+<h2>Facts and figures on the density and movement of people around the world</h2>
+</div>
+</div>
+</div>
+  <div class="container container-xl">
+    <div class="row">
+<div class="col-xs-12">
+           <h3>Net migration in high-GDP nations since 1960</h3>
+<p class="lead width-100-then-50">Migration, specifically immigration, is a frequent topic of news coverage and editorial opinion across media of many nations but particularly those regarded as wealthy (as measured by their Gross Domestic Product), whereby that wealth is largely dependent on maintaining a proportionate influx or net gain of migrants to ensure industrial growth.</p>
+<div class="table-responsive pas mar-btm-lg">
+<table class="table table-hover table-striped width-100 table-center mas">
+		<thead>
+				<tr>
+					<th class="align-center" style="min-width:60px;"><div class="phx">Millions</th>
+					<th class="align-center">2023</th>
+					<th class="align-center">2022</th>
+					<th class="align-center">2021</th>
+					<th class="align-center">2020</th>
+					<th class="align-center">2019</th>
+					<th class="align-center">2018</th>
+					<th class="align-center">2017</th>
+					<th class="align-center">2016</th>
+					<th class="align-center">2015</th>
+					<th class="align-center">2014</th>
+					<th class="align-center">2013</th>
+					<th class="align-center">2012</th>
+					<th class="align-center">2011</th>
+					<th class="align-center">2010</th>
+					<th class="align-center">2009</th>
+					<th class="align-center">2008</th>
+					<th class="align-center">2007</th>
+					<th class="align-center">2006</th>
+					<th class="align-center">2005</th> 
+					<th class="align-center">2004</th>
+					<th class="align-center">2003</th>
+					<th class="align-center">2002</th>
+					<th class="align-center">2001</th>
+					<th class="align-center">2000</th>
+					<th class="align-center">1999</th>
+					<th class="align-center">1998</th>
+					<th class="align-center">1997</th>
+					<th class="align-center">1996</th>
+					<th class="align-center">1995</th>
+					<th class="align-center">1994</th>
+					<th class="align-center">1993</th>
+					<th class="align-center">1992</th>
+					<th class="align-center">1991</th>
+					<th class="align-center">1990</th>
+					<th class="align-center">1989</th>
+					<th class="align-center">1988</th>
+					<th class="align-center">1987</th>
+					<th class="align-center">1986</th>
+					<th class="align-center">1985</th>
+					<th class="align-center">1984</th>
+					<th class="align-center">1983</th>
+					<th class="align-center">1982</th>
+					<th class="align-center">1981</th>
+					<th class="align-center">1980</th>
+					<th class="align-center">1979</th>
+					<th class="align-center">1978</th>
+					<th class="align-center">1977</th>
+					<th class="align-center">1976</th>
+					<th class="align-center">1975</th>
+					<th class="align-center">1974</th>
+					<th class="align-center">1973</th>
+					<th class="align-center">1972</th>
+					<th class="align-center">1971</th>
+					<th class="align-center">1970</th>
+					<th class="align-center">1969</th>
+					<th class="align-center">1968</th>
+					<th class="align-center">1967</th>
+					<th class="align-center">1966</th>
+					<th class="align-center">1965</th>
+					<th class="align-center">1964</th>
+					<th class="align-center">1963</th>
+					<th class="align-center">1962</th>
+					<th class="align-center">1961</th>
+					<th class="align-center">1960</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2.0</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>1.9</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-lo-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md-lo border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>1.8</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-lo-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md-hi border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td class="border-left border-left-red"></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>1.7</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-hi-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md-lo border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>1.6</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-hi-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md-lo border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>1.5</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-left border-left-red"></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>1.4</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-hi-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md-lo border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td class="border-lo border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>1.3</td>
+					<td class="border-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md-lo border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-hi border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td class="border-hi-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md-lo border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-lo border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>1.2</td>
+					<td></td>
+					<td></td>
+					<td class="border-left border-left-red"></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-hi-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md-lo border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td class="border-lo-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md-hi border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td class="border-hi-lo border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>1.1</td>
+					<td></td>
+					<td></td>
+					<td class="border-left border-left-red"></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-hi-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md-hi border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-hi-lo border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>1.0</td>
+					<td></td>
+					<td></td>
+					<td class="border-left border-left-red"></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-left border-left-red"></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>0.9</td>
+					<td></td>
+					<td></td>
+					<td class="border-left border-left-red"></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>0.8</td>
+					<td></td>
+					<td></td>
+					<td class="border-left border-left-red"></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-lo-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md-lo border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>0.7</td>
+					<td></td>
+					<td></td>
+					<td class="border-hi-lo border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-lo border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-lo-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md-hi border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td class="border-hi-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md-lo border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>0.6</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-left border-left-red"></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-lo-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md-hi border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td class="border-hi-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md-lo border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td class="border-lo-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md-hi border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-lo-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md-lo border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>0.5</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-left border-left-red"></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-lo-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td class="border-md-hi border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-hi border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-hi border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>0.4</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-left border-left-red"></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-hi border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-hi-md border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+				</tr>
+				<tr>
+					<td>0.3</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="border-hi border-red"><div class="point point-xs hue-red"><a tabindex="0" role="button" class="text-sm d-block" data-bs-trigger="focus" data-bs-toggle="popover" data-bs-content="USA 0.0">•</a></div>
+					</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>0.2</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>0.1</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>0.0</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>	
+         </div>
+<div class="col-xs-12">
+           <h3>The ratio of people by nation and global region</h3>
+<p class="lead width-100-then-50">Including only nations larger than 10,000km2 and/or with a population of over 1,000,000. Population density for entire nations can be misleading as it tends to be higher in larger cities and regions with more industrial activity, therefore reflecting the quality of a nation's distribution of its population rather than directly indicating whether its population is too high or low for the territory it covers or its level of urbanization and industrial development.</p>
+
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4">
+    <h3>
+      Western Europe
+    </h3>	
+
+<table class="table table-hover table-striped width-100 table-center">
+		<thead>
+				<tr>
+					<th class="align-left" width="40%"><div class="phx">Nation</th>
+					<th class="align-center" width="15%">Density</th>
+					<th class="align-center" width="15%">Density rank</th>
+					<th class="align-center" width="15%">Pop. approx</th>
+					<th class="align-center" width="15%">Pop. rank</th>
+	
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-eng"></div>
+						<div class="subject-title">England</td>
+					<td class="hue-red-33">424.3</td>
+					<td>51st</td>
+					<td class="hue-red-22">55.62M</td>
+					<td>22nd</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-126"></div>
+						<div class="subject-title">Netherlands</td>
+					<td class="hue-red-33">410.5</td>
+					<td>31st</td>
+					<td>17.05M</td>
+					<td>65th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-017"></div>
+						<div class="subject-title">Belgium</td>
+					<td class="hue-red-22">371</td>
+					<td>36th</td>
+					<td>11.32M</td>
+					<td>77th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-187"></div>
+						<div class="subject-title">United Kingdom</td>
+					<td class="hue-green-11">262</td>
+					<td>51st</td>
+					<td class="hue-green-22">64.11M</td>
+					<td>22nd</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-064"></div>
+						<div class="subject-title">Germany</td>
+					<td class="hue-green-11">228</td>
+					<td>58th</td>
+					<td class="hue-green-22">81.46M</td>
+					<td>17th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-171"></div>
+						<div class="subject-title">Switzerland</td>
+					<td class="hue-green-11">202</td>
+					<td>63rd</td>
+					<td>8.34M</td>
+					<td>99th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-082"></div>
+						<div class="subject-title">Italy</td>
+					<td class="hue-green-11">201</td>
+					<td>65th</td>
+					<td class="hue-green-22">60.67M</td>
+					<td>23rd</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-046"></div>
+						<div class="subject-title">Denmark</td>
+					<td>131</td>
+					<td>88th</td>
+					<td>5.64M</td>
+					<td>112th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-060"></div>
+						<div class="subject-title">France</td>
+					<td>118</td>
+					<td>95th</td>
+					<td class="hue-green-22">66.65M</td>
+					<td>20th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-142"></div>
+						<div class="subject-title">Portugal</td>
+					<td>115</td>
+					<td>97th</td>
+					<td>10.56M</td>
+					<td>86th</td>
+				</tr>
+			</tbody>
+		</table>
+
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 lists-lead">
+	<h3>
+      Eastern Europe
+    </h3>
+    	
+
+    <table class="table table-hover table-striped width-100 table-center">
+		<thead>
+				<tr>
+					<th class="align-left" width="40%"><div class="phx">Nation</th>
+					<th class="align-center" width="15%">Density</th>
+					<th class="align-center" width="15%">Density rank</th>
+					<th class="align-center" width="15%">Pop. approx</th>
+					<th class="align-center" width="15%">Pop. rank</th>
+	
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-092"></div>
+						<div class="subject-title">Kosovo</td>
+					<td>166</td>
+					<td>75th</td>
+					<td>1.82M</td>
+					<td>147th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-045"></div>
+						<div class="subject-title">Czech Republic</td>
+					<td>133</td>
+					<td>28th</td>
+					<td>10.52M</td>
+					<td>85th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-141"></div>
+						<div class="subject-title">Poland</td>
+					<td>123</td>
+					<td>51st</td>
+					<td>64.11M</td>
+					<td>35th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-159"></div>
+						<div class="subject-title">Slovakia</td>
+					<td>110</td>
+					<td>98th</td>
+					<td>5.41M</td>
+					<td>115th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-011"></div>
+						<div class="subject-title">Azerbaijan</td>
+					<td>109</td>
+					<td>100th</td>
+					<td>9.48M</td>
+					<td>92nd</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-074"></div>
+						<div class="subject-title">Hungary</td>
+					<td>106</td>
+					<td>101st</td>
+					<td>9.88M</td>
+					<td>91st</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-116"></div>
+						<div class="subject-title">Moldova</td>
+					<td>105</td>
+					<td>102nd</td>
+					<td>3.56M</td>
+					<td>131st</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-160"></div>
+						<div class="subject-title">Slovenia</td>
+					<td>102</td>
+					<td>106th</td>
+					<td>2.07M</td>
+					<td>143rd</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-008"></div>
+						<div class="subject-title">Armenia</td>
+					<td>102</td>
+					<td>105th</td>
+					<td>3.02M</td>
+					<td>135th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-002"></div>
+						<div class="subject-title">Albania</td>
+					<td>98</td>
+					<td>110th</td>
+					<td>2.82M</td>
+					<td>136th</td>
+				</tr>
+			</tbody>
+		</table>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 lists-lead">
+		<h3>
+			Western Asia (The Middle East)</h3>	<table class="table table-hover table-striped width-100 table-center">
+		<thead>
+				<tr>
+					<th class="align-left" width="40%"><div class="phx">Nation</th>
+					<th class="align-center" width="15%">Density</th>
+					<th class="align-center" width="15%">Density rank</th>
+					<th class="align-center" width="15%">Pop. approx</th>
+					<th class="align-center" width="15%">Pop. rank</th>
+	
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-013"></div>
+						<div class="subject-title">Bahrain</td>
+					<td>1945</td>
+					<td>7th</td>
+					<td>1.47M</td>
+					<td>149th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-135"></div>
+						<div class="subject-title">Palestinian territories</td>
+					<td>756</td>
+					<td>15th</td>
+					<td>4.55M</td>
+					<td>120th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-097"></div>
+						<div class="subject-title">Lebanon</td>
+					<td>587</td>
+					<td>20th</td>
+					<td>5.99M</td>
+					<td>111th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-081"></div>
+						<div class="subject-title">Israel</td>
+					<td>388.8</td>
+					<td>35th</td>
+					<td>8.58M</td>
+					<td>97th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-093"></div>
+						<div class="subject-title">Kuwait</td>
+					<td>225</td>
+					<td>59th</td>
+					<td>4.01M</td>
+					<td>126th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-143"></div>
+						<div class="subject-title">Qatar</td>
+					<td>175</td>
+					<td>73rd</td>
+					<td>2.02M</td>
+					<td>139th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-172"></div>
+						<div class="subject-title">Syria</td>
+					<td>115</td>
+					<td>33rd</td>
+					<td>18.56M</td>
+					<td>61st</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-086"></div>
+						<div class="subject-title">Jordan</td>
+					<td>108.1</td>
+					<td>134th</td>
+					<td>9.66M</td>
+					<td>93rd</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-181"></div>
+						<div class="subject-title">Turkey</td>
+					<td>102</td>
+					<td>108th</td>
+					<td>78.74M</td>
+					<td>19th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-186"></div>
+						<div class="subject-title">United Arab Emirates</td>
+					<td>99</td>
+					<td>109th</td>
+					<td>8.26M</td>
+					<td>90th</td>
+				</tr>
+			</tbody>
+		</table>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 lists-lead">
+		<h3>
+			Central & Eastern Asia</h3>
+		<table class="table table-hover table-striped width-100 table-center">
+		<thead>
+				<tr>
+					<th class="align-left" width="40%"><div class="phx">Nation</th>
+					<th class="align-center" width="15%">Density</th>
+					<th class="align-center" width="15%">Density rank</th>
+					<th class="align-center" width="15%">Pop. approx</th>
+					<th class="align-center" width="15%">Pop. rank</th>
+	
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-014"></div>
+						<div class="subject-title">Bangladesh</td>
+					<td>1118.6</td>
+					<td>10th</td>
+					<td>161.07M</td>
+					<td>8th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-091"></div>
+						<div class="subject-title">South Korea</td>
+					<td>507</td>
+					<td>24th</td>
+					<td>50.80M</td>
+					<td>27th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-076"></div>
+						<div class="subject-title">India</td>
+					<td>404.9</td>
+					<td>33rd</td>
+					<td>1.33B</td>
+					<td>2nd</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-085"></div>
+						<div class="subject-title">Japan</td>
+					<td>335.9</td>
+					<td>40th</td>
+					<td>126.96M</td>
+					<td>11th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-166"></div>
+						<div class="subject-title">Sri Lanka</td>
+					<td>309</td>
+					<td>43rd</td>
+					<td>20.27M</td>
+					<td>57th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-194"></div>
+						<div class="subject-title">Vietnam</td>
+					<td>268</td>
+					<td>50th</td>
+					<td>88.78MM</td>
+					<td>13th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-133"></div>
+						<div class="subject-title">Pakistan</td>
+					<td>241.6</td>
+					<td>56th</td>
+					<td>194.23M</td>
+					<td>6th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-090"></div>
+						<div class="subject-title">North Korea</td>
+					<td>197</td>
+					<td>67th</td>
+					<td>24.21M</td>
+					<td>51st</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-125"></div>
+						<div class="subject-title">Nepal</td>
+					<td>102</td>
+					<td>108th</td>
+					<td>28.43M</td>
+					<td>45th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-036"></div>
+						<div class="subject-title">China</td>
+					<td>99</td>
+					<td>109th</td>
+					<td>1.38B</td>
+					<td>1st</td>
+				</tr>
+			</tbody>
+		</table>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 lists-lead">
+	<h3>
+			Southern Asia & Oceania</h3>
+	
+				<table class="table table-hover table-striped width-100 table-center">
+		<thead>
+				<tr>
+					<th class="align-left" width="40%"><div class="phx">Nation</th>
+					<th class="align-center" width="15%">Density</th>
+					<th class="align-center" width="15%">Density rank</th>
+					<th class="align-center" width="15%">Pop. approx</th>
+					<th class="align-center" width="15%">Pop. rank</th>
+	
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-140"></div>
+						<div class="subject-title">Philippines</td>
+					<td>343.3</td>
+					<td>38th</td>
+					<td>103.0M</td>
+					<td>12th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-077"></div>
+						<div class="subject-title">Indonesia</td>
+					<td>135</td>
+					<td>27th</td>
+					<td>257.08M</td>
+					<td>4th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-176"></div>
+						<div class="subject-title">Thailand</td>
+					<td>131</td>
+					<td>89th</td>
+					<td>65.93M</td>
+					<td>21st</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-107"></div>
+						<div class="subject-title">Malaysia</td>
+					<td>95</td>
+					<td>44th</td>
+					<td>31.32M</td>
+					<td>40th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-029"></div>
+						<div class="subject-title">Cambodia</td>
+					<td>84</td>
+					<td>121st</td>
+					<td>15.18M</td>
+					<td>70th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-122"></div>
+						<div class="subject-title">Myanmar</td>
+					<td>80</td>
+					<td>52nd</td>
+					<td>54.36M</td>
+					<td>26th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-050"></div>
+						<div class="subject-title">Timor Leste</div> (East Timor)</td>
+					<td>71</td>
+					<td>137th</td>
+					<td>1.07M</td>
+					<td>154th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-095"></div>
+						<div class="subject-title">Laos</td>
+					<td>27.8</td>
+					<td>189th</td>
+					<td>6.58M</td>
+					<td>107th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-127"></div>
+						<div class="subject-title">New Zealand</td>
+					<td>17.43</td>
+					<td>205th</td>
+					<td>4.71M</td>
+					<td>123rd</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-137"></div>
+						<div class="subject-title">Papua New Guinea</td>
+					<td>16</td>
+					<td>89th</td>
+					<td>7.40M</td>
+					<td>100th</td>
+				</tr>
+			</tbody>
+		</table>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 lists-lead">
+	<h3>Northern Africa</h3>
+				<table class="table table-hover table-striped width-100 table-center">
+		<thead>
+				<tr>
+					<th class="align-left" width="40%"><div class="phx">Nation</th>
+					<th class="align-center" width="15%">Density</th>
+					<th class="align-center" width="15%">Density rank</th>
+					<th class="align-center" width="15%">Pop. approx</th>
+					<th class="align-center" width="15%">Pop. rank</th>
+	
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-146"></div>
+						<div class="subject-title">Rwanda</td>
+					<td>469</td>
+					<td>26th</td>
+					<td>11.89M</td>
+					<td>76th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-028"></div>
+						<div class="subject-title">Burundi</td>
+					<td>415</td>
+					<td>30th</td>
+					<td>11.55M</td>
+					<td>87th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-130"></div>
+						<div class="subject-title">Nigeria</td>
+					<td>202</td>
+					<td>64th</td>
+					<td>186.99M</td>
+					<td>7th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-062"></div>
+						<div class="subject-title">Gambia</td>
+					<td>173</td>
+					<td>74th</td>
+					<td>1.85M</td>
+					<td>146th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-177"></div>
+						<div class="subject-title">Togo</td>
+					<td>109</td>
+					<td>99th</td>
+					<td>6.19M</td>
+					<td>102nd</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-065"></div>
+						<div class="subject-title">Ghana</td>
+					<td>103</td>
+					<td>103rd</td>
+					<td>24.66M</td>
+					<td>46th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-019"></div>
+						<div class="subject-title">Benin</td>
+					<td>92</td>
+					<td>114th</td>
+					<td>10.32M</td>
+					<td>84th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-052"></div>
+						<div class="subject-title">Egypt</td>
+					<td>91.4</td>
+					<td>118th</td>
+					<td>91.57M</td>
+					<td>15th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-157"></div>
+						<div class="subject-title">Sierra Leone</td>
+					<td>85</td>
+					<td>119th</td>
+					<td>6.09M</td>
+					<td>104th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-057"></div>
+						<div class="subject-title">Ethiopia</td>
+					<td>83</td>
+					<td>123rd</td>
+					<td>87.95M</td>
+					<td>14th</td>
+				</tr>
+			</tbody>
+		</table>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 lists-lead">
+	<h3>
+			Southern Africa</h3>
+					
+				<table class="table table-hover table-striped width-100 table-center">
+		<thead>
+				<tr>
+					<th class="align-left" width="40%"><div class="phx">Nation</th>
+					<th class="align-center" width="15%">Density</th>
+					<th class="align-center" width="15%">Density rank</th>
+					<th class="align-center" width="15%">Pop. approx</th>
+					<th class="align-center" width="15%">Pop. rank</th>
+	
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-146"></div>
+						<div class="subject-title">Rwanda</td>
+					<td>469</td>
+					<td>26th</td>
+					<td>11.89M</td>
+					<td>76th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-028"></div>
+						<div class="subject-title">Burundi</td>
+					<td>415</td>
+					<td>30th</td>
+					<td>11.55M</td>
+					<td>87th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-130"></div>
+						<div class="subject-title">Nigeria</td>
+					<td>202</td>
+					<td>64th</td>
+					<td>186.99M</td>
+					<td>7th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-062"></div>
+						<div class="subject-title">Gambia</td>
+					<td>173</td>
+					<td>74th</td>
+					<td>1.85M</td>
+					<td>146th</td>
+				</tr>
+				<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-177"></div>
+						<div class="subject-title">Togo</td>
+					<td>109</td>
+					<td>99th</td>
+					<td>6.19M</td>
+					<td>102nd</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-065"></div>
+						<div class="subject-title">Ghana</td>
+					<td>103</td>
+					<td>103rd</td>
+					<td>24.66M</td>
+					<td>46th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-019"></div>
+						<div class="subject-title">Benin</td>
+					<td>92</td>
+					<td>114th</td>
+					<td>10.32M</td>
+					<td>84th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-052"></div>
+						<div class="subject-title">Egypt</td>
+					<td>91.4</td>
+					<td>118th</td>
+					<td>91.57M</td>
+					<td>15th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-157"></div>
+						<div class="subject-title">Sierra Leone</td>
+					<td>85</td>
+					<td>119th</td>
+					<td>6.09M</td>
+					<td>104th</td>
+				</tr>
+								<tr>
+					<td class="align-left text-left"><div class="d-flex align-items-center"><div class="pic-subject-inline-rect mar-hor-sm flag-057"></div>
+						<div class="subject-title">Ethiopia</td>
+					<td>83</td>
+					<td>123rd</td>
+					<td>87.95M</td>
+					<td>14th</td>
+				</tr>
+			</tbody>
+		</table>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 lists-lead">
+	<h3>
+			Northern Americas & The Caribbean</h3>
+		
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 lists-lead">
+	<h3>
+			Southern Americas</h3>
+				
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 lists-lead">
+	<h3>
+			Small islands and city states</h3>
+		
+</div>
+<div class="col-xs-12 col-sm-6 col-md-4 lists-lead">
+	<h3>
+			Worldwide (with population over 10 million)</h3>
+		
+	</div>
+	
+</div><!-- closes row -->
+  </div><!-- closes con -->
+  
+  <div class="shade-33">
+    <div class="container container-xl">
+      <div class="row">
+        <div class="col-sm-6">
+          <h4>About this page</h4>
+          <p class="phs width-95">This page was first published in March 2019. Information on this page may change as a result of any inaccuracies identified. Key sources of information for this page include  <a href="https://en.wikipedia.org/wiki/Lists_of_countries_and_territories">Wikipedia</a>.</p>
+        </div>
+    <div class="col-xs-12 col-sm-3">
+    <h4>More At A Glance</h4>
+    <a class="box text-up2" href="list-world-nations.html">World nations</a>
+    </div>
+    <div class="col-xs-12 col-sm-3">
+
+    </div>
+  </div>
+  </div>
+  </div>
+  <footer>
+  <div class="container container-xl">
+  <div class="row">
+    <div class="col">
+    <h5>At A Glance</h5>
+    <p class="mar-ver-sm text-faint">A <a href="/">Ghost Food</a> production for <a href="http://toshlist.org">Toshlist.org</a></p>
+    </div>
+<div class="col-sm-6">
+  <a onclick="topFunction()" id="top" href="#" class="align-center top rotate90cc border-round-100" title="Go to top of page">&#10140;</a>
+</div>
+  </div>
+  </div>
+  </footer>
+<script src="../../script/jquery.min.js" type="text/javascript"></script>
+<script src="../../script/jquery.dataTables.min.js"></script>
+<!-- enables table with pagination, sorting and filtering -->
+<script src="../../script/table-sort-numeric.js"></script>
+<!-- enables correct numerical sorting only AFTER datatables script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<script src="../../script/functions-general.js"></script>
+  <script>
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+const popover = new bootstrap.Popover('.popover-dismiss', {
+  trigger: 'focus'
+})
+
+</script>
+</body>
+</html>
