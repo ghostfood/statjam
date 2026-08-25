@@ -1,0 +1,95 @@
+/*-Strips---Euro 2024-*/
+
+.strip {
+/*	background-size:90%;*/
+	background-position: center 30%;
+}
+.strip-alb1 { background-image:url(url(/img/strips/international/euro24/ALB_1_23.png));}
+.strip-alb2 { background-image:url(url(/img/strips/international/euro24/ALB_2_23.png));}
+.strip-alb3 { background-image:url(url(/img/strips/international/euro24/ALB_3_23.png));}
+
+.strip-aut1 { background-image:url(url(/img/strips/international/euro24/AUT_1_24.png));}
+.strip-aut2 { background-image:url(url(/img/strips/international/euro24/AUT_2_24.png));}
+.strip-aut3 { background-image:url(url(/img/strips/international/euro24/AUT_1_24_2.png));}
+
+.strip-bgm1 { background-image:url(url(/img/strips/international/euro24/BEL_1_24.png));}
+.strip-bgm2 { background-image:url(url(/img/strips/international/euro24/BEL_2_24.png));}
+
+.strip-cro1 { background-image:url(url(/img/strips/international/euro24/CRO_1_24.png));}
+.strip-cro2 { background-image:url(url(/img/strips/international/euro24/CRO_2_24.png));}
+
+.strip-cze1 { background-image:url(url(/img/strips/international/euro24/CZE_1_24.png));}
+.strip-cze2 { background-image:url(url(/img/strips/international/euro24/CZE_2_24.png));}
+.strip-cze3 { background-image:url(url(/img/strips/international/euro24/CZE_1_24_2.png));}
+.strip-cze4 { background-image:url(url(/img/strips/international/euro24/CZE_2_24_2.png));}
+
+.strip-den1 { background-image:url(url(/img/strips/international/euro24/DEN_1_24.png));}
+.strip-den2 { background-image:url(url(/img/strips/international/euro24/DEN_2_24.png));}
+.strip-den3 { background-image:url(url(/img/strips/international/euro24/DEN_1_24_2.png));}
+
+.strip-eng1 { background-image:url(url(/img/strips/international/euro24/ENG_1_24.png));}
+.strip-eng2 { background-image:url(url(/img/strips/international/euro24/ENG_2_24.png));}
+.strip-eng3 { background-image:url(url(/img/strips/international/euro24/ENG_1_24_2.png));}
+
+.strip-esp1 { background-image:url(url(/img/strips/international/euro24/ESP_1_24.png));}
+.strip-esp2 { background-image:url(url(/img/strips/international/euro24/ESP_2_24.png));}
+.strip-esp3 { background-image:url(url(/img/strips/international/euro24/ESP_1_24_2.png));}
+
+.strip-fra1 { background-image:url(url(/img/strips/international/euro24/FRA_1_24.png));}
+.strip-fra2 { background-image:url(url(/img/strips/international/euro24/FRA_2_24.png));}
+.strip-fra3 { background-image:url(url(/img/strips/international/euro24/FRA_1_24_4.png));}
+.strip-fra4 { background-image:url(url(/img/strips/international/euro24/FRA_2_24_2.png));}
+
+.strip-geo1 { background-image:url(url(/img/strips/international/euro24/GEO_1_23.png));}
+.strip-geo2 { background-image:url(url(/img/strips/international/euro24/GEO_3_23.png));}
+.strip-geo3 { background-image:url(url(/img/strips/international/euro24/GEO_2_23.png));}
+
+.strip-ger1 { background-image:url(url(/img/strips/international/euro24/GER_1_24.png));}
+.strip-ger2 { background-image:url(url(/img/strips/international/euro24/GER_2_24.png));}
+.strip-ger3 { background-image:url(url(/img/strips/international/euro24/GER_1_24_2.png));}
+
+.strip-hun1 { background-image:url(url(/img/strips/international/euro24/HUN_1_24.png));}
+.strip-hun2 { background-image:url(url(/img/strips/international/euro24/HUN_2_24.png));}
+.strip-hun3 { background-image:url(url(/img/strips/international/euro24/HUN_1_24_2.png));}
+
+.strip-ita1 { background-image:url(url(/img/strips/international/euro24/ITA_1_24.png));}
+.strip-ita2 { background-image:url(url(/img/strips/international/euro24/ITA_2_24.png));}
+.strip-ita3 { background-image:url(url(/img/strips/international/euro24/ITA_1_24_3.png));}
+.strip-ita4 { background-image:url(url(/img/strips/international/euro24/ITA_2_24_3.png));}
+
+.strip-ned1 { background-image:url(url(/img/strips/international/euro24/NED_1_24.png));}
+.strip-ned2 { background-image:url(url(/img/strips/international/euro24/NED_2_24.png));}
+
+.strip-rom1 { background-image:url(url(/img/strips/international/euro24/ROU_1_23.png));}
+.strip-rom2 { background-image:url(url(/img/strips/international/euro24/ROU_2_23.png));}
+
+.strip-pol1 { background-image:url(url(/img/strips/international/euro24/POL_1_24.png));}
+.strip-pol2 { background-image:url(url(/img/strips/international/euro24/POL_2_24.png));}
+.strip-pol3 { background-image:url(url(/img/strips/international/euro24/POL_1_24_2.png));}
+.strip-pol4 { background-image:url(url(/img/strips/international/euro24/POL_2_24_2.png));}
+
+.strip-por1 { background-image:url(url(/img/strips/international/euro24/POR_1_24.png));}
+.strip-por2 { background-image:url(url(/img/strips/international/euro24/POR_2_24.png));}
+.strip-por3 { background-image:url(url(/img/strips/international/euro24/POR_2_24_2.png));}
+
+.strip-ser1 { background-image:url(url(/img/strips/international/euro24/SRB_1_24.png));}
+.strip-ser2 { background-image:url(url(/img/strips/international/euro24/SRB_2_24.png));}
+
+.strip-sco1 { background-image:url(url(/img/strips/international/euro24/SCO_1_24.png));}
+.strip-sco2 { background-image:url(url(/img/strips/international/euro24/SCO_2_24.png));}
+.strip-sco3 { background-image:url(url(/img/strips/international/euro24/SCO_1_24_2.png));}
+
+.strip-svk1 { background-image:url(url(/img/strips/international/euro24/SVK_1_24.png));}
+.strip-svk2 { background-image:url(url(/img/strips/international/euro24/SVK_2_24.png));}
+
+.strip-svn1 { background-image:url(url(/img/strips/international/euro24/SVN_1_24.png));}
+.strip-svn2 { background-image:url(url(/img/strips/international/euro24/SVN_2_24.png));}
+
+.strip-sui1 { background-image:url(url(/img/strips/international/euro24/SUI_1_24.png));}
+.strip-sui2 { background-image:url(url(/img/strips/international/euro24/SUI_2_24.png));}
+
+.strip-tky1 { background-image:url(url(/img/strips/international/euro24/TUR_1_24.png));}
+.strip-tky2 { background-image:url(url(/img/strips/international/euro24/TUR_2_24.png));}
+
+.strip-ukr1 { background-image:url(url(/img/strips/international/euro24/UKR_1_22.png));}
+.strip-ukr2 { background-image:url(url(/img/strips/international/euro24/UKR_2_22.png));}
