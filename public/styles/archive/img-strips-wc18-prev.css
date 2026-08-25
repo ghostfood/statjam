@@ -1,0 +1,164 @@
+/*-Strips---wc180-*/
+.strip {
+	background-image: url(url(/img/strips/strip-missing.png));
+	background-size: contain;
+}
+.strip-rus1 { background-image:url(url(/img/strips/international/wc18/RUS_russia_national_team_1_18.png));}
+.strip-sau1 { background-image:url(url(/img/strips/international/wc18/KSA_saudi_arabia_national_team_2_18.png));}
+.strip-egy1 { background-image:url(url(/img/strips/international/wc18/EGY_egypt_national_team_121_18.png));}
+.strip-uru1 { background-image:url(url(/img/strips/international/wc18/URU_uruguay_national_team_2_18_2.png));}
+.strip-mco1 { background-image:url(url(/img/strips/international/wc18/MAR_morocco_national_team_1_18.png));}
+.strip-irn1 { background-image:url(url(/img/strips/international/wc18/IRN_iran_national_team_1_18.png));}
+.strip-por1 { background-image:url(url(/img/strips/international/wc18/POR_portugal_national_team_1_18.png));}
+.strip-esp1 { background-image:url(url(/img/strips/international/wc18/ESP_spain_national_team_2_18.png));}
+.strip-fra1 { background-image:url(url(/img/strips/international/wc18/FRA_france_national_team_113_18.png));}
+.strip-aus1 { background-image:url(url(/img/strips/international/wc18/AUS_australia_national_team_1_18.png));}
+.strip-per1 { background-image:url(url(/img/strips/international/wc18/PER_peru_national_team_1_18.png));}
+.strip-den1 { background-image:url(url(/img/strips/international/wc18/DEN_denmark_national_team_121_18.png));}
+.strip-arg1 { background-image:url(url(/img/strips/international/wc18/ARG_argentina_national_team_212_18.png));}
+.strip-ice1 { background-image:url(url(/img/strips/international/wc18/ISL_iceland_national_team_2_18.png));}
+.strip-cro1 { background-image:url(url(/img/strips/international/wc18/CRO_croatia_national_team_114_18.png));}
+.strip-ngi1 { background-image:url(url(/img/strips/international/wc18/NGA_nigeria_national_team_2_18.png));}
+.strip-cos1 { background-image:url(url(/img/strips/international/wc18/CRC_costa_rica_national_team_113_18.png));}
+.strip-ser1 { background-image:url(url(/img/strips/international/wc18/SRB_serbia_national_team_2_18.png));}
+.strip-bra1 { background-image:url(url(/img/strips/international/wc18/BRA_brasil_national_team_1_18.png));}
+.strip-sui1 { background-image:url(url(/img/strips/international/wc18/SUI_switzerland_national_team_121_18.png));}
+.strip-ger1 { background-image:url(url(/img/strips/international/wc18/GER_germany_national_team_1_18.png));}
+.strip-mex1 { background-image:url(url(/img/strips/international/wc18/MEX_mexico_national_team_1_18.png));}
+.strip-swe1 { background-image:url(url(/img/strips/international/wc18/SWE_sweden_national_team_1_17.png));}
+.strip-sko1 { background-image:url(url(/img/strips/international/wc18/KOR_korea_national_team_2_18.png));}
+.strip-bgm1 { background-image:url(url(/img/strips/international/wc18/BEL_belgium_national_team_2_18.png));}
+.strip-pan1 { background-image:url(url(/img/strips/international/wc18/PAN_panama_national_team_2_18.png));}
+.strip-tun1 { background-image:url(url(/img/strips/international/wc18/TUN_tunisia_national_team_1_18.png));}
+.strip-eng1 { background-image:url(url(/img/strips/international/wc18/ENG_england_national_team_232_18.png));}
+.strip-col1 { background-image:url(url(/img/strips/international/wc18/COL_colombia_national_team_133_18.png));}
+.strip-jpn1 { background-image:url(url(/img/strips/international/wc18/JPN_japan_national_team_1_18.png));}
+.strip-pol1 { background-image:url(url(/img/strips/international/wc18/POL_poland_national_team_1_18.png));}
+.strip-sen1 { background-image:url(url(/img/strips/international/wc18/SEN_senegal_national_team_2_18.png));}
+
+.strip-rus2 { background-image:url(url(/img/strips/international/wc18/RUS_russia_national_team_113_18.png));}
+.strip-sau2 { background-image:url(url(/img/strips/international/wc18/KSA_saudi_arabia_national_team_1_18.png));}
+.strip-egy2 { background-image:url(url(/img/strips/international/wc18/EGY_egypt_national_team_2_18.png));}
+.strip-uru2 { background-image:url(url(/img/strips/international/wc18/URU_uruguay_national_team_1_18.png));}
+.strip-mco2 { background-image:url(url(/img/strips/international/wc18/MAR_morocco_national_team_1_18.png));}
+.strip-irn2 { background-image:url(url(/img/strips/international/wc18/IRN_iran_national_team_2_18.png));}
+.strip-por2 { background-image:url(url(/img/strips/international/wc18/POR_portugal_national_team_2_18.png));}
+.strip-esp2 { background-image:url(url(/img/strips/international/wc18/ESP_spain_national_team_2_18.png));}
+.strip-fra2 { background-image:url(url(/img/strips/international/wc18/FRA_france_national_team_121_18.png));}
+.strip-aus2 { background-image:url(url(/img/strips/international/wc18/AUS_australia_national_team_2_18.png));}
+.strip-per2 { background-image:url(url(/img/strips/international/wc18/PER_peru_national_team_1_18.png));}
+.strip-den2 { background-image:url(url(/img/strips/international/wc18/DEN_denmark_national_team_2_18_2.png));}
+.strip-arg2 { background-image:url(url(/img/strips/international/wc18/ARG_argentina_national_team_121_18.png));}
+.strip-ice2 { background-image:url(url(/img/strips/international/wc18/ISL_iceland_national_team_1_18.png));}
+.strip-cro2 { background-image:url(url(/img/strips/international/wc18/CRO_croatia_national_team_2_18_2.png));}
+.strip-ngi2 { background-image:url(url(/img/strips/international/wc18/NGA_nigeria_national_team_1_18.png));}
+.strip-cos2 { background-image:url(url(/img/strips/international/wc18/CRC_costa_rica_national_team_221_18.png));}
+.strip-ser2 { background-image:url(url(/img/strips/international/wc18/SRB_serbia_national_team_1_18.png));}
+.strip-bra2 { background-image:url(url(/img/strips/international/wc18/BRA_brasil_national_team_212_18.png));}
+.strip-sui2 { background-image:url(url(/img/strips/international/wc18/SUI_switzerland_national_team_2_18.png));}
+.strip-ger2 { background-image:url(url(/img/strips/international/wc18/GER_germany_national_team_1_18.png));}
+.strip-mex2 { background-image:url(url(/img/strips/international/wc18/MEX_mexico_national_team_2_18.png));}
+.strip-swe2 { background-image:url(url(/img/strips/international/wc18/SWE_sweden_national_team_2_18.png));}
+.strip-sko2 { background-image:url(url(/img/strips/international/wc18/KOR_korea_national_team_1_18.png));}
+.strip-bgm2 { background-image:url(url(/img/strips/international/wc18/BEL_belgium_national_team_1_18.png));}
+.strip-pan2 { background-image:url(url(/img/strips/international/wc18/PAN_panama_national_team_1_18.png));}
+.strip-tun2 { background-image:url(url(/img/strips/international/wc18/TUN_tunisia_national_team_2_18.png));}
+.strip-eng2 { background-image:url(url(/img/strips/international/wc18/ENG_england_national_team_1_18.png));}
+.strip-col2 { background-image:url(url(/img/strips/international/wc18/COL_colombia_national_team_232_18.png));}
+.strip-jpn2 { background-image:url(url(/img/strips/international/wc18/JPN_japan_national_team_1_18.png));}
+.strip-pol2 { background-image:url(url(/img/strips/international/wc18/POL_poland_national_team_1_18.png));}
+.strip-sen2 { background-image:url(url(/img/strips/international/wc18/SEN_senegal_national_team_1_18.png));}
+
+.strip-rus3 { background-image:url(url(/img/strips/international/wc18/RUS_russia_national_team_2_18.png));}
+.strip-sau3 { background-image:url(url(/img/strips/international/wc18/KSA_saudi_arabia_national_team_2_18.png));}
+.strip-egy3 { background-image:url(url(/img/strips/international/wc18/EGY_egypt_national_team_2_18.png));}
+.strip-uru3 { background-image:url(url(/img/strips/international/wc18/URU_uruguay_national_team_1_18.png));}
+.strip-mco3 { background-image:url(url(/img/strips/international/wc18/MAR_morocco_national_team_2_18.png));}
+.strip-irn3 { background-image:url(url(/img/strips/international/wc18/IRN_iran_national_team_1_18.png));}
+.strip-por3 { background-image:url(url(/img/strips/international/wc18/POR_portugal_national_team_1_18.png));}
+.strip-esp3 { background-image:url(url(/img/strips/international/wc18/ESP_spain_national_team_1_18.png));}
+.strip-fra3 { background-image:url(url(/img/strips/international/wc18/FRA_france_national_team_2_18.png));}
+.strip-aus3 { background-image:url(url(/img/strips/international/wc18/AUS_australia_national_team_1_18.png));}
+.strip-per3 { background-image:url(url(/img/strips/international/wc18/PER_peru_national_team_2_18.png));}
+.strip-den3 { background-image:url(url(/img/strips/international/wc18/DEN_denmark_national_team_1_18.png));}
+.strip-arg3 { background-image:url(url(/img/strips/international/wc18/ARG_argentina_national_team_1_18.png));}
+.strip-ice3 { background-image:url(url(/img/strips/international/wc18/ISL_iceland_national_team_2_18.png));}
+.strip-cro3 { background-image:url(url(/img/strips/international/wc18/CRO_croatia_national_team_2_18_2.png));}
+.strip-ngi3 { background-image:url(url(/img/strips/international/wc18/NGA_nigeria_national_team_2_18.png));}
+.strip-cos3 { background-image:url(url(/img/strips/international/wc18/CRC_costa_rica_national_team_2_18.png));}
+.strip-ser3 { background-image:url(url(/img/strips/international/wc18/SRB_serbia_national_team_1_18.png));}
+.strip-bra3 { background-image:url(url(/img/strips/international/wc18/BRA_brasil_national_team_121_18.png));}
+.strip-sui3 { background-image:url(url(/img/strips/international/wc18/SUI_switzerland_national_team_1_18.png));}
+.strip-ger3 { background-image:url(url(/img/strips/international/wc18/GER_germany_national_team_2_18.png));}
+.strip-mex3 { background-image:url(url(/img/strips/international/wc18/MEX_mexico_national_team_1_18.png));}
+.strip-swe3 { background-image:url(url(/img/strips/international/wc18/SWE_sweden_national_team_1_17.png));}
+.strip-sko3 { background-image:url(url(/img/strips/international/wc18/KOR_korea_national_team_1_18.png));}
+.strip-bgm3 { background-image:url(url(/img/strips/international/wc18/BEL_belgium_national_team_2_18.png));}
+.strip-pan3 { background-image:url(url(/img/strips/international/wc18/PAN_panama_national_team_1_18.png));}
+.strip-tun3 { background-image:url(url(/img/strips/international/wc18/TUN_tunisia_national_team_1_18.png));}
+.strip-eng3 { background-image:url(url(/img/strips/international/wc18/ENG_england_national_team_1_18.png));}
+.strip-col3 { background-image:url(url(/img/strips/international/wc18/COL_colombia_national_team_1_18.png));}
+.strip-jpn3 { background-image:url(url(/img/strips/international/wc18/JPN_japan_national_team_1_18.png));}
+.strip-pol3 { background-image:url(url(/img/strips/international/wc18/POL_poland_national_team_121_18.png));}
+.strip-sen3 { background-image:url(url(/img/strips/international/wc18/SEN_senegal_national_team_1_18.png));}
+
+
+.strip-fra4 { background-image:url(url(/img/strips/international/wc18/FRA_france_national_team_1_18.png));}
+.strip-fra5 { background-image:url(url(/img/strips/international/wc18/FRA_france_national_team_212_18.png));}
+.strip-jpn4 { background-image:url(url(/img/strips/international/wc18/JPN_japan_national_team_1_18.png));}
+
+.strip-eng6 { background-image:url(url(/img/strips/international/wc18/ENG_england_national_team_121_18.png));}
+.strip-fra6 { background-image:url(url(/img/strips/international/wc18/FRA_france_national_team_123_18.png));}
+
+
+/* unused strip combinations */
+.strip-sau0 { background-image:url(url(/img/strips/international/wc18/KSA_saudi_arabia_national_team_121_18.png));}
+.strip-egy0 { background-image:url(url(/img/strips/international/wc18/EGY_egypt_national_team_1_18.png));}
+.strip-uru0 { background-image:url(url(/img/strips/international/wc18/URU_uruguay_national_team_212_18.png));}
+.strip-esp0 { background-image:url(url(/img/strips/international/wc18/ESP_spain_national_team_1_18.png));}
+.strip-mco0 { background-image:url(url(/img/strips/international/wc18/MAR_morocco_national_team_2_18.png));}
+.strip-por0 { background-image:url(url(/img/strips/international/wc18/POR_portugal_national_team_211_18.png));}
+.strip-mco4 { background-image:url(url(/img/strips/international/wc18/MAR_morocco_national_team_122_18.png));}
+
+.strip-aus0 { background-image:url(url(/img/strips/international/wc18/AUS_australia_national_team_121_18.png));}
+.strip-per0 { background-image:url(url(/img/strips/international/wc18/PER_peru_national_team_121_18.png));}
+
+
+.strip-cos0 { background-image:url(url(/img/strips/international/wc18/CRC_costa_rica_national_team_1_18.png));}
+.strip-cos5 { background-image:url(url(/img/strips/international/wc18/CRC_costa_rica_national_team_122_18.png));}
+.strip-ser0 { background-image:url(url(/img/strips/international/wc18/SRB_serbia_national_team_221_18.png));}
+
+.strip-cro0 { background-image:url(url(/img/strips/international/wc18/CRO_croatia_national_team_1_18.png));}
+.strip-cro5 { background-image:url(url(/img/strips/international/wc18/CRO_croatia_national_team_211_18.png));}
+
+.strip-cro4 { background-image:url(url(/img/strips/international/wc18/CRO_croatia_national_team_2_18.png));}
+.strip-eng0 { background-image:url(url(/img/strips/international/wc18/ENG_england_national_team_212_18.png));}
+.strip-eng5 { background-image:url(url(/img/strips/international/wc18/ENG_england_national_team_232_18.png));}
+.strip-bgm5 { background-image:url(url(/img/strips/international/wc18/BEL_belgium_national_team_121_18.png));}
+.strip-pan0 { background-image:url(url(/img/strips/international/wc18/PAN_panama_national_team_121_18.png));}
+
+.strip-col0 { background-image:url(url(/img/strips/international/wc18/COL_colombia_national_team_1_18.png));}
+.strip-col5 { background-image:url(url(/img/strips/international/wc18/COL_colombia_national_team_2_18.png));}
+.strip-jpn0 { background-image:url(url(/img/strips/international/wc18/JPN_japan_national_team_2_18.png));}
+.strip-jpn5 { background-image:url(url(/img/strips/international/wc18/JPN_japan_national_team_121_18.png));}
+
+
+.strip-sko0 { background-image:url(url(/img/strips/international/wc18/KOR_korea_national_team_121_18.png));}
+.strip-mex0 { background-image:url(url(/img/strips/international/wc18/MEX_mexico_national_team_212_18.png));}
+.strip-ger0 { background-image:url(url(/img/strips/international/wc18/GER_germany_national_team_121_18.png));}
+.strip-arg0 { background-image:url(url(/img/strips/international/wc18/ARG_argentina_national_team_2_18.png));}
+
+.strip-eng7 { background-image:url(url(/img/strips/international/wc18/ENG_england_national_team_2_18.png));}
+
+
+.picture-subject.strip {
+	background-size: contain;
+	background-color: transparent;
+}
+
+.bg-football1 {
+	background-position: right center;
+	background-size: contain;
+	    margin: -2.1em auto 0 auto;
+}
+

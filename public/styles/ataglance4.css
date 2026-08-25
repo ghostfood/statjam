@@ -19,6 +19,7 @@ header, footer {
     color: rgba(255,255,255,.66);
     display: block;
     font-size:13.333px;
+    font-family: 'Inter Tight', 'Roboto';
 }
 
 footer {
@@ -42,7 +43,8 @@ footer img {
     padding: 4px;
     border-radius: 100%;
 }
-a, a > * { color:#0cc;text-decoration:none;cursor:pointer;}
+a, a > * { 
+    font-family: 'Inter Tight', 'Roboto';color:#0cc;text-decoration:none;cursor:pointer;}
 a:hover, a:focus {  text-decoration:underline; color:inherit; }
 * { background-repeat: no-repeat;}
 
@@ -2291,6 +2293,7 @@ a.box.box-btn:hover {
 .link-button, .link-button-sm {
     margin: 5px 5px 10px;
     padding:10px 35px 10px 20px;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 600;
     display: inline-block;
