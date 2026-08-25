@@ -408,7 +408,7 @@ z-index: -1;
     max-width: 90%;
 }
 .title-alert {
-    background-image: url(../img/icons/icon-alert.png);
+    background-image: url(/img/icons/icon-alert.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 1px 1px;
@@ -431,7 +431,7 @@ z-index: -1;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url(../img/photos/photo-pending.png);
+    background-image: url(/img/photos/photo-pending.png);
     height:auto;
     position: relative;
 }
@@ -696,7 +696,7 @@ button.close div.icon-no {
     border-radius: 100%;
     display: inline-block;
     background-color: rgba(255,255,255,.95);
-    background-image: url(../img/icons/icon-londonunderground.png);
+    background-image: url(/img/icons/icon-londonunderground.png);
     background-size: cover;
     background-position: center center;
     margin: 0 2px 0 0;
@@ -707,7 +707,7 @@ button.close div.icon-no {
     width: 60px;
     height: 40px;
     display: inline-block;
-    background-image: url(../img/icons/icon-bus-newroutemaster.png);
+    background-image: url(/img/icons/icon-bus-newroutemaster.png);
     background-size: contain;
     background-position: center top;
     margin:2px 0;
@@ -717,7 +717,7 @@ button.close div.icon-no {
     width: 16px;
     height: 16px;
     display: inline-block;
-    background-image: url(../img/icons/icon-tv-white.png);
+    background-image: url(/img/icons/icon-tv-white.png);
     background-size: contain;
     margin: 0 2px;
 }
@@ -726,7 +726,7 @@ button.close div.icon-no {
     border-radius: 100%;
     display: inline-block;
     background-color: rgba(0,0,0,.95);
-    background-image: url(../img/icons/icon-death.png);
+    background-image: url(/img/icons/icon-death.png);
     background-size: cover;
     border:none;
 }
@@ -738,7 +738,7 @@ button.close div.icon-no {
     border-radius: 100%;
     display: inline-block;
     background-color: rgba(255,255,255,.95);
-    background-image: url(../img/icons/icon-football.png);
+    background-image: url(/img/icons/icon-football.png);
     background-size: cover;
     margin: 0 auto;
     background-position: top;
@@ -776,14 +776,14 @@ span.align-right.icon-goal {
 .icon-no, 
 .icon-yes {
     background-color: #17E5BD;
-    background-image: url(../img/icons/icon-tick-dark.svg); /* reverted to image-based solution due to line-height differences between PC and Mac versions of Chrome creating an unacceptable  position difference for the original UTF text-based character */
+    background-image: url(/img/icons/icon-tick-dark.svg); /* reverted to image-based solution due to line-height differences between PC and Mac versions of Chrome creating an unacceptable  position difference for the original UTF text-based character */
     background-repeat: no-repeat;
     background-size: 5px;
     background-position: center;
 }
 .icon-no {
     background-color: #F94B7D;
-    background-image: url(../img/icons/icon-plus-x-dark.svg);
+    background-image: url(/img/icons/icon-plus-x-dark.svg);
 }
 
 
@@ -1474,7 +1474,7 @@ margin-bottom: 5px;
 
 
 .line-fff-o15-ver {
-background-image: url(../img/line-fff-o15.png);
+background-image: url(/img/line-fff-o15.png);
 background-repeat: repeat-y;
 background-position: center center;
 }
@@ -1595,7 +1595,7 @@ td.small > div.pax.mvx:first-line {
 .banner-topright {
     background-position: top right;
     background-size: 50%;
-    background-image: url(../img/backgrounds/ataglance-topright.svg);
+    background-image: url(/img/backgrounds/ataglance-topright.svg);
     background-repeat: no-repeat;
 }
 .banner-topright::before {
@@ -2935,7 +2935,7 @@ li div.pic-lg + .subject-title-md {
     max-width: 75%;
 }
 .strip { 
-    background-image: url(../img/strips/strip-missing.png);
+    background-image: url(/img/strips/strip-missing.png);
     background-size: contain;
     background-position: 0 2px !important;
     margin-right: 8px;

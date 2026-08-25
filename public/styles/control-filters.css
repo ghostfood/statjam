@@ -103,7 +103,7 @@ button.control {
  font-family:'Avenir LT Std 95 Black';
  color:rgba(0,0,0,.75);*/
      background-color: #17E5BD;
-     background-image: url(../img/icons/icon-tick-dark.svg); /* reverted to image-based solution due to line-height differences between PC and Mac versions of Chrome creating an unacceptable  position difference for the original UTF text-based character */
+     background-image: url(/img/icons/icon-tick-dark.svg); /* reverted to image-based solution due to line-height differences between PC and Mac versions of Chrome creating an unacceptable  position difference for the original UTF text-based character */
      background-repeat: no-repeat;
      background-size: 11px;
      background-position: center center;
@@ -116,7 +116,7 @@ button.control {
     line-height: 0;
      color:rgba(0,0,0,.75);*/
     background-color: rgba(255,255,255,.5);
-    background-image: url(../img/icons/icon-plus-x-dark.svg); /* see note for psudeo-selector initial state */
+    background-image: url(/img/icons/icon-plus-x-dark.svg); /* see note for psudeo-selector initial state */
     background-size: 10px;
     transition: color 0.33s ease;
     transition: background-color 0.33s ease;  
