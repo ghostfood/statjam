@@ -1,0 +1,223 @@
+* {
+	z-index:0;
+}
+
+.photo-ge24-1 {
+    background-image: url(../../img/photos/mp/mp2024/mp-0300.jpg);
+background-size: 160% !important;
+    background-position: 50% 25%;
+}
+
+.photo-ge24-2 {
+    background-image: url(../../img/photos/mp/mp2024/mp-0454.jpg);
+background-size: 160% !important;
+    background-position: 50% 25%;
+}
+
+.photo-ge24-3 {
+    background-image: url(../../img/photos/mp/mp2021/mp-0213.jpg);
+
+}
+
+
+.worldleaders-01 {
+	background-image: url(../../img/photos/heads/sheinbaumc.png);
+}
+.worldleaders-02 {
+	background-image: url(../../img/photos/heads/takaichis.png);
+
+}
+.worldleaders-03 {
+	background-image: url(../../img/photos/heads/hassanss.png);
+}
+
+
+.worldleaders-unitedstates {
+	background-image: url(../../img/photos/heads/past/trumpd.jpg);
+}
+
+.monarch-elizabeth2 {
+	background-image: url(../../img/monarchs/mon-elizabeth2.png);
+}
+
+.monarch-victoria {
+	background-image: url(../../img/monarchs/mon-victoria.jpg);
+}
+
+.monarch-george3 {
+	background-image: url(../../img/monarchs/mon-george3.jpg);
+}
+
+
+
+.pm-unitedkingdom-1 {
+	background-image: url(../../img/photos/mp/past/mp-blairt97.jpg);
+}
+
+.pm-unitedkingdom-2 {
+	background-image: url(../../img/photos/mp/past/mp-blairt01.jpg);
+}
+
+.pm-unitedkingdom-3 {
+	background-image: url(../../img/photos/heads/johnsonb.jpg);
+}
+.pm-thatcher83 {
+	background-image: url(../../img/photos/mp/past/mp-thatcherm83.jpg);
+}
+.pm-thatcher87 {
+	background-image: url(../../img/photos/mp/past/mp-thatcherm87.jpg);
+}
+.pm-cameron {
+	background-image: url(../../img/photos/mp/past/mp-camerond10.jpg);
+}
+.pm-major92 {
+	background-image: url(../../img/photos/mp/past/mp-majorjohn92.jpg);
+}
+.p-usa-bush00 {
+	background-image: url(../../img/photos/heads/past/head-bushgw.jpg);
+}
+
+.p-usa-kennedy60 {
+	background-image: url(../../img/photos/heads/past/head-kennedyj.jpg);
+}
+
+.p-usa-trump16 {
+		background-image: url(../../img/photos/heads/past/head-trumpd.jpg);
+}
+
+.rumbler1 {
+	background-image: url(../../img/photos/wwe/wwe-michaelss.jpg);
+}
+.rumbler2 {
+	background-image: url(../../img/photos/wwe/wwe-austins.jpg);
+}
+.rumbler3 {
+	background-image: url(../../img/photos/wwe/wwe-tripleh2.jpg);
+}
+
+.species1 {
+	background-image: url(../../img/photos/species/species-vaquita.jpg);
+	background-size: cover;
+}
+.species2 {
+	background-image: url(../../img/photos/species/species-javanrhino.jpg);
+	background-size: cover;
+}
+.species3 {
+	background-image: url(../../img/photos/species/species-amurleopard.jpg);
+	background-size: cover;
+}
+
+.photo-mp-sc-030 {background-image: url(../../img/photos/mp/current/mp-gethinss.jpg);}
+.photo-mp-sc-055 {background-image: url(../../img/photos/mp/current/mp-wishartp.jpg);}
+.photo-mp-wm-026 {background-image: url(../../img/photos/mp/current/mp-farrellyp.jpg);}
+
+.football-cup-cc {
+	background-image: url(../../img/photos/football/cup-confed.jpg);
+	background-position: center top;
+}
+
+.football-cup-cl {
+	background-image: url(../../img/photos/football/cup-european.jpg);
+	background-position: center top;}
+
+.football-cup-fa {
+	background-image: url(../../img/photos/football/cup-fa.jpg);}
+
+.football-cup-ec16 {
+	background-image: url(../../img/photos/football/cup-euro16.jpg);
+}
+.football-cup-ec20 {
+	background-image: url(../../img/photos/football/cup-euro20.png);
+}
+.football-cup-ec {
+	background-image: url(../../img/photos/football/cup-euros.png);
+}
+.football-uefa {
+	background-image: url(../../img/photos/football/cup-bundesliga.png);
+}
+.football-cup-wc {
+	background-image: url(../../img/photos/football/cup-worldcup.jpg);
+}
+
+.football-cup-wc18 {
+	background-image: url(../../img/photos/football/cup-worldcup18mascot.jpg);
+}
+.football-cup-wc22 {
+	background-image: url(../../img/photos/football/cup-worldcup22mascot.png);
+}
+.football-cup-wc26 {
+	background-image: url(../../img/logos/worldcup2026-mascots.jpeg);
+}
+.football-epl {
+	background-image: url(../../img/logos/football-epl.gif);
+	background-position: center;
+	background-size: cover;
+	background-color: #FF015B;
+}
+.football-epl25 {
+	background-image: url(../../img/photos/football/epl25.jpg);
+}
+
+.eplclub1 {
+	background-image: url(../../img/emblems/fc-manchester-united.png);
+}
+.eplclub2 {
+	background-image: url(../../img/emblems/fc-tottenham-hotspur.png);
+	background-color: #fff;
+}
+.eplclub3 {
+	background-image: url(../../img/emblems/fc-west-ham-united.jpeg);
+
+}
+
+
+.listhues1 {
+	background-image: url(../../img/photos/banners/bg-design-colours.jpg);
+	background-size: cover;
+}
+.londonbuses {
+	background-image: url(../../img/photos/banners/bg-londonbuses.jpeg);
+	background-size: cover;
+	background-position:center 50%;
+}	
+.royalrumble {
+	background-image: url(../../img/photos/banners/bg-royalrumble.jpeg);
+	background-size: cover;
+	background-position:center 10%;
+}	
+
+.weather {
+	background-image: url(../../img/icons/icon-weather-sunsnowheavy.svg); 
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.uk-charthits {
+    background-image: url(../../img/photos/banners/bg-music-ukcharthits.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.got-characters {
+    background-image: url(../../img/photos/banners/bg-entertainment-got.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo-got1 {
+    background-image: url(../../img/photos/tv/got-tyrion.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.photo-got2 {
+    background-image: url(../../img/photos/tv/got-cersei.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.photo-got3 {
+    background-image: url(../../img/photos/tv/got-danaerys.jpg);
+    background-position: center;
+    background-size: cover;
+}
