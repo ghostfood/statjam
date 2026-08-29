@@ -1,0 +1,215 @@
+/* Pie - Members of Parliament */
+
+.pie-001 {
+	background-image: url(../../img/pie/pink/salmon/pie-49.svg), 
+	url(../../img/pie/orange/vivid/pie-92.svg), 
+	url(../../img/pie/blue/strong/pie-95.svg), 
+	url(../../img/pie/green/strong/pie-98.svg);
+}
+.pie-002 {
+	background-image: url(../../img/pie/pink/salmon/pie-47.svg), 
+	url(../../img/pie/green/dark/pie-81.svg), 
+	url(../../img/pie/green/vivid/pie-89.svg),
+	url(../../img/pie/orange/vivid/pie-96.svg),
+	url(../../img/pie/red/strong/pie-98.svg);
+}
+.pie-003 {
+	background-image: url(../../img/pie/green/vivid/pie-25.svg), 
+	url(../../img/pie/pink/salmon/pie-47.svg), 
+	url(../../img/pie/orange/vivid/pie-64.svg),
+	url(../../img/pie/green/dark/pie-78.svg),
+	url(../../img/pie/mauve/pie-87.svg),
+	url(../../img/pie/green/strong/pie-93.svg),
+	url(../../img/pie/purple/pie-98.svg);
+}
+.pie-004 {
+	background-image: url(../../img/pie/green/dark/pie-54.svg), 
+	url(../../img/pie/maroon/pie-73.svg), 
+	url(../../img/pie/green/vivid/pie-83.svg),
+	url(../../img/pie/pink/salmon/pie-91.svg),
+	url(../../img/pie/mauve/pie-94.svg),
+	url(../../img/pie/purple/pie-96.svg);
+}
+.pie-005 {
+	background-image: url(../../img/pie/pink/salmon/pie-36.svg), 
+	url(../../img/pie/mauve/pie-55.svg), 
+	url(../../img/pie/orange/vivid/pie-70.svg), 
+	url(../../img/pie/purple/pie-81.svg),
+	url(../../img/pie/green/dark/pie-88.svg),
+	url(../../img/pie/teal/pie-94.svg),
+	url(../../img/pie/green/vivid/pie-99.svg);
+}
+.pie-006 {
+	background-image: url(../../img/pie/pink/salmon/pie-42.svg), 
+	url(../../img/pie/green/dark/pie-62.svg), 
+	url(../../img/pie/mauve/pie-77.svg),
+	url(../../img/pie/green/vivid/pie-89.svg),
+	url(../../img/pie/orange/vivid/pie-97.svg);
+}
+.pie-007 {
+	background-image: url(../../img/pie/mauve/pie-46.svg), 
+	url(../../img/pie/green/dark/pie-89.svg), 
+	url(../../img/pie/green/vivid/pie-94.svg);
+}
+.pie-008 {
+	background-image: url(../../img/pie/green/vivid/pie-48.svg), 
+	url(../../img/pie/green/dark/pie-80.svg), 
+	url(../../img/pie/pink/salmon/pie-92.svg),
+	url(../../img/pie/mauve/pie-95.svg);
+}
+.pie-009 {
+	background-image: url(../../img/pie/pink/salmon/pie-48.svg), 
+	url(../../img/pie/mauve/pie-63.svg), 
+	url(../../img/pie/orange/vivid/pie-77.svg),
+	url(../../img/pie/green/vivid/pie-83.svg),
+	url(../../img/pie/purple/pie-89.svg),
+	url(../../img/pie/teal/pie-94.svg),
+	url(../../img/pie/green/dark/pie-97.svg);
+}
+.pie-010 {
+	background-image: url(../../img/pie/green/dark/pie-49.svg), 
+	url(../../img/pie/mauve/pie-64.svg), 
+	url(../../img/pie/pink/salmon/pie-77.svg),
+	url(../../img/pie/green/vivid/pie-89.svg),
+	url(../../img/pie/teal/pie-94.svg),
+	url(../../img/pie/purple/pie-96.svg),
+	url(../../img/pie/orange/vivid/pie-98.svg);
+}
+.pie-011 {
+	background-image: url(../../img/pie/green/dark/pie-41.svg), 
+	url(../../img/pie/mauve/pie-74.svg), 
+	url(../../img/pie/green/vivid/pie-98.svg);
+}
+.pie-012 {
+	background-image: url(../../img/pie/pink/salmon/pie-43.svg), 
+	url(../../img/pie/teal/pie-59.svg), 
+	url(../../img/pie/green/dark/pie-71.svg),
+	url(../../img/pie/mauve/pie-83.svg),
+	url(../../img/pie/green/vivid/pie-90.svg),
+	url(../../img/pie/orange/vivid/pie-96.svg),
+	url(../../img/pie/purple/pie-99.svg);
+}
+.pie-013 {
+	background-image: url(../../img/pie/grey/pie-49.svg), 
+	url(../../img/pie/pink/salmon/pie-73.svg), 
+	url(../../img/pie/orange/vivid/pie-82.svg),
+	url(../../img/pie/green/strong/pie-87.svg),
+	url(../../img/pie/blue/strong/pie-91.svg),
+	url(../../img/pie/purple/pie-95.svg),
+	url(../../img/pie/green/vivid/pie-97.svg);
+}
+.pie-014 {
+	background-image: url(../../img/pie/mauve/pie-33.svg), 
+	url(../../img/pie/pink/salmon/pie-63.svg), 
+	url(../../img/pie/green/dark/pie-76.svg),
+	url(../../img/pie/orange/vivid/pie-86.svg),
+	url(../../img/pie/green/vivid/pie-94.svg),
+	url(../../img/pie/teal/pie-99.svg);
+}
+.pie-015 {
+	background-image: url(../../img/pie/green/vivid/pie-42.svg), 
+	url(../../img/pie/green/dark/pie-71.svg), 
+	url(../../img/pie/mauve/pie-80.svg),
+	url(../../img/pie/pink/salmon/pie-88.svg),
+	url(../../img/pie/purple/pie-95.svg),
+	url(../../img/pie/orange/vivid/pie-99.svg);
+}
+.pie-016 {
+	background-image: url(../../img/pie/pink/salmon/pie-44.svg), 
+	url(../../img/pie/mauve/pie-58.svg), 
+	url(../../img/pie/orange/vivid/pie-72.svg),
+	url(../../img/pie/green/vivid/pie-79.svg),
+	url(../../img/pie/purple/pie-86.svg),
+	url(../../img/pie/blue/strong/pie-92.svg),
+	url(../../img/pie/teal/pie-97.svg);
+}
+.pie-017 {
+	background-image: url(../../img/pie/pink/salmon/pie-33.svg), 
+	url(../../img/pie/mauve/pie-61.svg), 
+	url(../../img/pie/green/dark/pie-85.svg),
+	url(../../img/pie/green/vivid/pie-94.svg),
+	url(../../img/pie/orange/vivid/pie-98.svg);
+}
+.pie-018 {
+	background-image: url(../../img/pie/green/dark/pie-43.svg), 
+	url(../../img/pie/pink/salmon/pie-61.svg), 
+	url(../../img/pie/green/vivid/pie-78.svg),
+	url(../../img/pie/mauve/pie-94.svg);
+}
+
+
+
+.swing-pie-001 {
+	background-image: url(../../img/pie/pink/salmon/swing-30.svg), 
+	url(../../img/pie/orange/vivid/swing-50.svg);
+}
+.swing-pie-002 {
+	background-image: url(../../img/pie/pink/salmon/swing-29.svg), 
+	url(../../img/pie/green/dark/swing-50.svg);
+}
+.swing-pie-003 {
+	background-image: url(../../img/pie/pink/salmon/swing-33.svg), 
+	url(../../img/pie/green/vivid/swing-50.svg);
+}
+.swing-pie-004 {
+	background-image: url(../../img/pie/maroon/swing-39.svg), 
+	url(../../img/pie/green/dark/swing-50.svg);
+}
+.swing-pie-005 {
+	background-image: url(../../img/pie/mauve/swing-27.svg), 
+	url(../../img/pie/pink/salmon/swing-50.svg);
+}
+.swing-pie-006 {
+	background-image: url(../../img/pie/pink/salmon/swing-29.svg), 
+	url(../../img/pie/green/dark/swing-50.svg);
+}
+.swing-pie-007 {
+	background-image: url(../../img/pie/mauve/swing-25.svg), 
+	url(../../img/pie/green/dark/swing-50.svg);
+}
+.swing-pie-008 {
+	background-image: url(../../img/pie/green/vivid/swing-27.svg), 
+	url(../../img/pie/green/dark/swing-50.svg);
+}
+.swing-pie-009 {
+	background-image: url(../../img/pie/pink/salmon/swing-27.svg), 
+	url(../../img/pie/mauve/swing-50.svg);
+}
+.swing-pie-010 {
+	background-image: url(../../img/pie/mauve/swing-29.svg), 
+	url(../../img/pie/green/dark/swing-50.svg);
+}
+.swing-pie-011 {
+	background-image: url(../../img/pie/mauve/swing-32.svg), 
+	url(../../img/pie/green/dark/swing-50.svg);
+}
+.swing-pie-012 {
+	background-image: url(../../img/pie/teal/swing-26.svg), 
+	url(../../img/pie/pink/salmon/swing-50.svg);
+}
+.swing-pie-013 {
+	background-image: url(../../img/pie/grey/swing-25.svg), 
+	url(../../img/pie/pink/salmon/swing-50.svg);
+}
+.swing-pie-014 {
+	background-image: url(../../img/pie/mauve/swing-28.svg), 
+	url(../../img/pie/pink/salmon/swing-50.svg);
+}
+.swing-pie-015 {
+	background-image: url(../../img/pie/green/dark/swing-28.svg), 
+	url(../../img/pie/green/vivid/swing-50.svg);
+}
+.swing-pie-016 {
+	background-image: url(../../img/pie/pink/salmon/swing-31.svg), 
+	url(../../img/pie/mauve/swing-50.svg);
+}
+.swing-pie-017 {
+	background-image: url(../../img/pie/mauve/swing-33.svg), 
+	url(../../img/pie/pink/salmon/swing-50.svg);
+}
+.swing-pie-018 {
+	background-image: url(../../img/pie/pink/salmon/swing-26.svg), 
+	url(../../img/pie/green/dark/swing-50.svg);
+}
+
+

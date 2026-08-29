@@ -1,0 +1,43 @@
+
+@font-face {
+    font-family: 'Avenir LT Std 95 Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 95 Black'),  url('../webfonts/avenir-lt-std/AvenirLTStd-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 85 Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 85 Heavy'), url('../webfonts/avenir-lt-std/AvenirLTStd-Heavy.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 65 Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 65 Medium'), url('../webfonts/avenir-lt-std/AvenirLTStd-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 55 Roman';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 55 Roman'), url('../webfonts/avenir-lt-std/AvenirLTStd-Roman.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 45 Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 45 Book'), url('../webfonts/avenir-lt-std/AvenirLTStd-Book.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 35 Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 35 Light'), url('../webfonts/avenir-lt-std/AvenirLTStd-Light.otf') format('opentype');
+}
+
