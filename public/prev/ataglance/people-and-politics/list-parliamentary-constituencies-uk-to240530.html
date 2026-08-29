@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="refresh" content="7; url=https://statjam.org/go/parl" />
 <meta name="description" content="Fast facts for fuller findings. Collections of data for greater convenience & deeper analysis.">
 <meta name="keywords" content="glance, guide, data, table, information, statistics, visual, reference">
 <meta name="author" content="statjam">
@@ -12212,7 +12213,7 @@ table.table-striped tr td:last-of-type {
     <!--149:Chorley --> 
   </div> 
 </div>
-  <div class="max width-95"><!-- Lindsay Hoyle -->
+  <div class="max width-95"><!--Lindsay Hoyle -->
   <div class="subject-firstname-surname">Lindsay<br/> Hoyle <!--310 --> 
   </div> 
   <div class="small text-faint">7 terms (*1 term as Speaker, 6 as a Labour MP)</div>
@@ -53053,31 +53054,6 @@ document.getElementById('mixcount').innerHTML = rowCount;
 </script>
 
 
-<script>
-(function() {
-  var path = window.location.pathname || '/';
-  var normalized = path.replace(/^\/+/, '').replace(/^prev\//, '');
-  var target = 'https://statjam.org/';
 
-  if (normalized === '' || normalized === '404.html' || normalized === 'index.html') {
-    target = 'https://statjam.org/';
-  } else if (normalized === 'ataglance' || normalized === 'ataglance/' || normalized === 'ataglance/index.html') {
-    target = 'https://statjam.org/ataglance';
-  } else if (normalized.indexOf('ataglance/') === 0 || normalized.indexOf('ataglance') === 0) {
-    var after = normalized.replace(/^ataglance\/?/, '');
-    if (after === '' || after === 'index.html') {
-      target = 'https://statjam.org/ataglance';
-    } else {
-      target = 'https://statjam.org/ataglance/' + after.replace(/^\/+/, '');
-    }
-  } else {
-    target = 'https://statjam.org/' + normalized.replace(/^\/+/, '');
-  }
-
-  setTimeout(function() {
-    window.location.href = target;
-  }, 5000);
-})();
-</script>
 </body>
 </html>
