@@ -5,16 +5,134 @@ html {
 }
 body {
   margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  align-items: start;
+  min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #3a3042;
+  background-image: linear-gradient(30deg, #f98f3e 0%, #f94b7d 50%, #17e5bd 100%);
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Inter Tight', 'Roboto', sans-serif;
 }
+
+header,
+footer {
+  position: relative;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Inter Tight', 'Roboto', sans-serif;
+}
+
+.home-banner {
+  max-width: 1200px;
+}
+
+.home-row {
+  min-height: 400px;
+}
+
+/* Ensure the main content fills the main area of the page */
+main, main .main-content {
+  height: 100%;
+}
+
+header {
+  padding: 1rem 0 0;
+  min-height: 64px;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+  font-size: clamp(2.2rem, 3vw, 3.2rem);
+  line-height: 1.1;
+  position: relative;
+  z-index: 3;
+  font-family: 'Inter Tight', 'Roboto', sans-serif;
+}
+
+header a,
+footer a {
+  color: #2a9dd9;
+  text-decoration: none;
+}
+
+header a:hover,
+header a:focus,
+footer a:hover,
+footer a:focus {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem 0 1.5rem;
+  color: rgba(255, 255, 255, 0.75);
+  position: relative;
+  background-color: transparent;
+  min-height: unset;
+  z-index:0;
+}
+
+footer > * {
+  flex: 1 100%;
+}
+
+footer::after {
+  position: fixed;
+  content: '';
+  display: block;
+  height: 42vh;
+  width: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0%, transparent);
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.bg-aag-motif {
+  background-image: url(/img/backgrounds/ataglance-home-banner.svg);
+  background-size: 50%;
+  background-position: 90% center;
+}
+
+@media screen and (max-width: 767px) {
+  /* Hide decorative background on small and medium screens for clarity and performance */
+  .bg-aag-motif {
+    background-image: none !important;
+    background-position: initial !important;
+    background-size: initial !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h1 span:first-of-type {
+    position: relative;
+    top: 17px;
+    margin: 0 -1px 0 -12px;
+    font-size: 120%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .bg-aag-motif {
+    background-size: contain;
+  }
+}
+
 article,
 aside,
 details,
 figcaption,
 figure,
-footer,
-header,
 main,
 menu,
 nav,
@@ -235,7 +353,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: 'Inter Tight', 'Roboto', sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -254,6 +372,260 @@ img {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+}
+
+.not-found-page {
+  position: relative;
+  min-height: calc(100vh - 160px);
+  color: rgba(255, 255, 255, 0.8);
+  overflow: hidden;
+  padding-top: 0.5rem;
+}
+
+.grad-shade {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+  min-height: 100%;
+  padding: 1rem 0 3rem;
+  position: relative;
+  z-index: 2; /* raise so content sits above decorative gradients */
+}
+
+.grad-all {
+  background-color: #3a3042;
+  background-image: linear-gradient(86deg, #f98f3e 0%, #f94b7d 60%, #17e5bd 100%);
+  position: relative;
+  min-height: 100%;
+  z-index: 0; /* establish stacking context */
+}
+
+.grad-all::before {
+  background: radial-gradient(
+      at 34% 29%,hsl(11deg,97%,63%) 0,transparent 50%),
+  radial-gradient(
+      at 55% 51%,hsl(0deg,100%,57%) 0,transparent 50%),
+  radial-gradient(
+      at 59% 69%,hsl(340deg,80%,56%) 0,transparent 0%),
+  radial-gradient(
+      at 74% 52%,hsl(21deg,85%,52%) 0,transparent 0%),
+  radial-gradient(
+      at 100% 59%,hsl(327deg,85%,52%) 0,transparent 0%),
+  radial-gradient(
+      at 100% 1%,hsl(317deg,92%,65%) 0,transparent 50%),
+  radial-gradient(
+      at 82% 37%,hsl(323deg,100%,72%) 0,transparent 50%),
+  radial-gradient(
+      at 100% 100%,hsl(206deg,86%,57%) 0,transparent 0%),
+  radial-gradient(
+      at 0% 1%,hsl(289deg,100%,60%) 0,transparent 50%);
+  position: absolute;
+  inset: 0;
+  display: block;
+  content: '';
+  z-index: -1; /* push decorative radial gradients behind content */
+}
+
+.box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: .75rem 1rem;
+  font-size: 13.5px;
+  color: #ddd;
+  background: rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  z-index: 3;
+}
+
+.box:hover,
+.box:focus {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  text-decoration: none;
+}
+
+.text-faint {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.width-100-then-50 {
+  width: 100%;
+  max-width: 640px;
+  margin-inline: auto;
+}
+
+.clip-circle {
+  height: 330px;
+  width: 100%;
+  max-width: 800px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 25px auto 0;
+  border-top: 15px inset rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eye {
+  width: 100%;
+  height: 330px;
+  border-radius: 100%;
+  position: relative;
+  background: radial-gradient(circle at 50%, #fcfcfc, #efeff1 66%, #eecccc 100%);
+}
+
+.iris {
+  width: 50%;
+  max-width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 80px 25% 0;
+  animation: statjam-eye-move 5s ease-out infinite;
+  background: radial-gradient(circle at 50% 50%, #066 0%, #6cc 90%);
+}
+
+.iris::before {
+  content: "";
+  width: 40%;
+  height: 40%;
+  border-radius: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background: black;
+  transform: translate(-50%, -50%);
+}
+
+.iris::after {
+  content: "";
+  width: 30%;
+  height: 30%;
+  border-radius: 100%;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#lid {
+  animation: statjam-eye-blink 2.4s infinite;
+  animation-delay: 8s;
+  top: -50px;
+  border-bottom: 15px inset rgba(0, 0, 0, 0.9);
+}
+
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.mt-5 {
+  margin-top: 3rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  margin: 0.25rem 0;
+  color: rgba(255, 255, 255, 0.9);
+  position: relative;
+  z-index: 2;
+  font-family: 'Inter Tight', 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: clamp(2.35rem, 4vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.08;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 2.8vw, 2.4rem);
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.15;
+}
+
+a {
+  color: #6cc;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@keyframes statjam-eye-move {
+  0% {
+    transform: none;
+  }
+  20% {
+    transform: translateX(-35%) translateY(10%) scale(0.95);
+  }
+  30%, 40% {
+    transform: none;
+  }
+  50%, 60% {
+    transform: translateX(35%) translateY(-15%) scale(0.95);
+  }
+  66%, 100% {
+    transform: none;
+  }
+}
+
+@keyframes statjam-eye-blink {
+  90% {
+    transform: none;
+    animation-timing-function: ease-in;
+  }
+  93% {
+    transform: translateY(15px) scaleY(0);
+  }
+  100% {
+    animation-timing-function: ease-out;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .clip-circle {
+    height: 400px;
+  }
+
+  .eye {
+    height: 400px;
+  }
+
+  .iris {
+    max-width: 300px;
+    height: 66.6%;
+    left: 0;
+    top: 0;
+    margin: 65px 35%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .iris {
+    height: 75%;
+    margin: 65px 32%;
+  }
 }
 h1 {
   margin-left: 0;

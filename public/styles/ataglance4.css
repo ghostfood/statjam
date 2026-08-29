@@ -4248,7 +4248,7 @@ ul.boxed > li, div.mix {
 }
 @media screen and (min-width:1600px) {
 
-footer .row, .container > *, header,
+footer .row, .container > *,
 .container-xl {
     max-width: 1580px;
     margin: auto;

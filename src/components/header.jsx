@@ -2,13 +2,11 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header>
+  <header className="shade-25">
     <div className="d-flex flex-column justify-content-center align-items-center">
-      <h1>
-        <a href="/">
-          {siteTitle}
+        <a href="/" className="text-up1 text-faint">
+          <span className="d-none">{siteTitle}</span>S T A T J A M . O R G
         </a>
-      </h1>
     </div>
   </header>
 )
