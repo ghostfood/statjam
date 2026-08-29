@@ -454,6 +454,13 @@ img {
   width: 100%;
   max-width: 640px;
   margin-inline: auto;
+position: relative; /* ensure it can be stacked above decorative overlays */
+z-index: 3;
+-webkit-user-select: text;
+-moz-user-select: text;
+-ms-user-select: text;
+user-select: text;
+pointer-events: auto;
 }
 
 .clip-circle {
