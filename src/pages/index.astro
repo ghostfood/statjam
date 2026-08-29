@@ -14,39 +14,6 @@ const description = "Fast facts for fuller findings. Collections of data for gre
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700|Roboto+Condensed:300,400,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900" rel="stylesheet">
   <style type="text/css">
-@keyframes swing
-{
-    15%    {
-        -webkit-transform: translateX(5px);
-        transform: translateX(5px);
-    }
-    30%    {
-        -webkit-transform: translateX(-5px);
-        transform: translateX(-5px);
-    }
-    50%    {
-        -webkit-transform: translateX(3px);
-        transform: translateX(3px);
-    }
-    65%    {
-        -webkit-transform: translateX(-3px);
-        transform: translateX(-3px);
-    }
-    80%    {
-        -webkit-transform: translateX(2px);
-        transform: translateX(2px);
-    }
-    100%    {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
-}
-.swing:hover {
-        -webkit-animation: swing .5s ease;
-        animation: swing .5s ease;
-        -webkit-animation-iteration-count: 1;
-        animation-iteration-count: 1;
-}
 body {
     margin: 0;
   display: grid;
@@ -113,27 +80,12 @@ h1 span:first-of-type {
               <p class="width-95 text-up1">Collections of hierarchical information brought together in practical ways for greater convenience and analysis.</p>
               <p class="width-95 text-up1 mhs">From historical chronologies to ranked tables and statistical results - categories range from People &amp; Politics to Culture &amp; Entertainment, Sport &amp; Recreation to Travel &amp; Transport, Art &amp; Design to Nature &amp; Science.
               </p>
-              <a href="/ataglance/" class="link-button hue-emerlite mas my-4 text-up2">At A Glance homepage</a>
+              <a href="/ataglance/" class="link-button hue-emerlite mas my-4 text-up2 swing">At A Glance homepage</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- Original page footer content (kept inside layout main so Layout footer remains consistent) -->
-    <div class="container container-xl mt-5">
-      <div class="row">
-        <div class="col-12 align-center">
-          <div class="d-flex justify-content-center">
-            <a href="http://ghostfood.uk" class="d-flex flex-column align-center align-inline" title="Go to ghostfood.uk">
-              <img src="/img/icon-ghostfood.png" height="40" width="40" class="d-flex align-center rounded-circle my-2 p-1" alt="Ghost Food logo">
-              <div class="align-center small">A Ghost Food production</div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
   </main>
 
   <!-- Bootstrap JS and dependencies (loaded in dev and production as needed) -->
