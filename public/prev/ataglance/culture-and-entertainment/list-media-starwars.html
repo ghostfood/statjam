@@ -1689,31 +1689,6 @@ $('#clear').click(function() {
 </script>
 
 
-<script>
-(function() {
-  var path = window.location.pathname || '/';
-  var normalized = path.replace(/^\/+/, '').replace(/^prev\//, '');
-  var target = 'https://statjam.org/';
 
-  if (normalized === '' || normalized === '404.html' || normalized === 'index.html') {
-    target = 'https://statjam.org/';
-  } else if (normalized === 'ataglance' || normalized === 'ataglance/' || normalized === 'ataglance/index.html') {
-    target = 'https://statjam.org/ataglance';
-  } else if (normalized.indexOf('ataglance/') === 0 || normalized.indexOf('ataglance') === 0) {
-    var after = normalized.replace(/^ataglance\/?/, '');
-    if (after === '' || after === 'index.html') {
-      target = 'https://statjam.org/ataglance';
-    } else {
-      target = 'https://statjam.org/ataglance/' + after.replace(/^\/+/, '');
-    }
-  } else {
-    target = 'https://statjam.org/' + normalized.replace(/^\/+/, '');
-  }
-
-  setTimeout(function() {
-    window.location.href = target;
-  }, 5000);
-})();
-</script>
 </body>
 </html>

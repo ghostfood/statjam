@@ -183,6 +183,34 @@ li > .picture-subject-med.align-center {
 </style>
 </head>
 <body class="grad-all">
+<button class="ataglance-menu-toggle shade-50" id="ataglance-menu-toggle" type="button" aria-controls="ataglance-menu" aria-expanded="false" aria-label="Open site menu"></button>
+<div class="ataglance-menu shade-66" id="ataglance-menu" aria-hidden="true">
+  <button class="ataglance-menu-toggle ataglance-menu-close shade-50" id="ataglance-menu-close" type="button" aria-controls="ataglance-menu" aria-expanded="true" aria-label="Close site menu">+</button>
+  <div class="ataglance-menu-grid">
+    <div>
+      <h2>People &amp; Politics</h2>
+      <a href="people-and-politics/list-monarchs-british.html" class="subject-title-md text-white text-up1 d-flex max">Monarchs of British islands</a>
+      <a href="people-and-politics/list-parliamentary-constituencies-uk-to170608.html" class="subject-title-md text-white text-up1 d-flex max">UK Parliamentary constituencies 2015-2017</a>
+      <a href="people-and-politics/list-parliamentary-constituencies-uk-to191130.html" class="subject-title-md text-white text-up1 d-flex max">UK Parliamentary constituencies 2017-2019</a>
+      <a href="people-and-politics/table-parliamentary-constituencies-uk.html" class="subject-title-md text-white text-up1 d-flex max">UK Parliamentary constituencies now</a>
+      <a href="people-and-politics/list-parliamentary-constituencies-uk-to240530.html" class="subject-title-md text-white text-up1 d-flex max">UK Parliamentary constituencies prior to GE24</a>
+      <a href="people-and-politics/list-world-leaders.html" class="subject-title-md text-white text-up1 d-flex max">World leaders</a>
+      <a href="people-and-politics/list-world-nations.html" class="subject-title-md text-white text-up1 d-flex max">World nations</a>
+      <a href="people-and-politics/results-election-general-uk-2015.html" class="subject-title-md text-white text-up1 d-flex max">UK General Election 2015</a>
+      <a href="people-and-politics/results-election-general-uk-2017.html" class="subject-title-md text-white text-up1 d-flex max">UK General Election 2017</a>
+      <a href="people-and-politics/results-election-general-uk-2019.html" class="subject-title-md text-white text-up1 d-flex max">UK General Election 2019</a>
+      <a href="people-and-politics/results-election-general-uk-2024.html" class="subject-title-md text-white text-up1 d-flex max">UK General Election 2024</a>
+      <a href="people-and-politics/results-elections-general-uk.html" class="subject-title-md text-white text-up1 d-flex max">UK General Elections since 1970</a>
+      <a href="people-and-politics/results-elections-presidential-usa.html" class="subject-title-md text-white text-up1 d-flex max">US Presidential Elections since 1948</a>
+    </div>
+    <h2>Sport &amp; Recreation</h2>
+    <h2>Culture &amp; Entertainment</h2>
+    <div>
+      <h2>Travel &amp; Transport</h2>
+      <h2>Nature &amp; Science</h2>
+    </div>
+  </div>
+</div>
 <div class="container container-xl width-max pan">
 <div class="row align-center pos-rel">
 <div class="col-xs-12 mvm pad-ver-lg ">
@@ -1122,6 +1150,21 @@ li > .picture-subject-med.align-center {
 <script src="../script/jquery.dataTables.min.js"></script>
 
 <script type="text/javascript">
+
+const ataglanceMenu = document.getElementById('ataglance-menu');
+const ataglanceMenuToggle = document.getElementById('ataglance-menu-toggle');
+const ataglanceMenuClose = document.getElementById('ataglance-menu-close');
+
+function setAtaglanceMenuOpen(isOpen) {
+  ataglanceMenu.classList.toggle('is-open', isOpen);
+  ataglanceMenu.setAttribute('aria-hidden', String(!isOpen));
+  ataglanceMenuToggle.setAttribute('aria-expanded', String(isOpen));
+  ataglanceMenuClose.setAttribute('aria-expanded', String(isOpen));
+  document.body.classList.toggle('ataglance-menu-open', isOpen);
+}
+
+ataglanceMenuToggle.addEventListener('click', () => setAtaglanceMenuOpen(true));
+ataglanceMenuClose.addEventListener('click', () => setAtaglanceMenuOpen(false));
 
 $('#allpages').dataTable( {
   "dom": '<fl<t>ip>',
