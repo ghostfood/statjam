@@ -28,7 +28,8 @@ footer {
     margin:0;
     padding:10px 0;
     background-color: rgba(0,0,0,.66);
-    min-height:170px;}
+    min-height:170px;
+}
 
 header img, footer img, .disc-sm, .disc-sm-md, .box-lite {
     width: 24px;
@@ -51,6 +52,122 @@ a, a > * {
 }
 a:hover, a:focus {  text-decoration:underline; color:inherit; }
 * { background-repeat: no-repeat;}
+
+.ataglance-menu-toggle {
+    position: fixed;
+    top: 1rem;
+    left: 50%;
+    z-index: 999;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: 1px solid rgba(255,255,255,.55);
+    border-radius: 50%;
+    color: #fff;
+    font-family: 'Inter Tight', 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 30px;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.ataglance-menu-toggle:hover,
+.ataglance-menu-toggle:focus-visible {
+    background-color: rgba(255,255,255,.2);
+    outline: 2px solid rgba(255,255,255,.8);
+    outline-offset: 3px;
+}
+
+.ataglance-menu-toggle:not(.ataglance-menu-close)::before {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 16px;
+    height: 2px;
+    background-color: #fff;
+    content: '';
+    box-shadow: 0 5px 0 #fff, 0 10px 0 #fff;
+    transform: translate(-50%, -50%);
+}
+
+.ataglance-menu {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    padding: 7rem 5vw 3rem;
+}
+
+.ataglance-menu::before {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,.25));
+    content: '';
+    z-index: 0;
+}
+
+.ataglance-menu.is-open {
+    display: block;
+}
+
+.ataglance-menu-close {
+    z-index: 1002;
+    font-size: 0;
+}
+
+.ataglance-menu-close::before {
+    position: absolute;
+    left: 3px !important;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    content: '+';
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1;
+    transform: rotate(45deg);
+}
+
+.ataglance-menu-grid {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2rem;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.ataglance-menu-grid h2 {
+    margin: 0 0 1rem .5rem;
+    color: rgba(255,255,255,.9);
+    font-size: clamp(1.25rem, 2.5vw, 2.25rem);
+    line-height: 1.1;
+}
+
+.ataglance-menu-grid div h2 + h2 {
+    margin-top: 2rem;
+}
+
+.ataglance-menu-open {
+    overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+    .ataglance-menu-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.5rem 1rem;
+    }
+}
 
 a > span, button {color:rgba(255,255,255,.75);}
 
@@ -3998,7 +4115,7 @@ ul.boxed > li, div.mix {
 .title-subject-scaled, .text-up1 {
     font-size: 110%;
 /*    line-height: 1.35; problem in table discs */
-    margin-bottom: -1px;
+    /* margin-bottom: -1px; */
 }
 .flexlist-end {
     justify-content: flex-end;

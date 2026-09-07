@@ -79,15 +79,20 @@ footer {
   position: relative;
   background-color: transparent;
   min-height: unset;
-  z-index:0;
+  z-index: 0;
+  isolation: isolate;
+                flex-flow: row wrap;
+                min-height:unset;
 }
 
 footer > * {
+  position: relative;
+  z-index: 1;
   flex: 1 100%;
 }
 
 footer::after {
-  position: fixed;
+  position: absolute;
   content: '';
   display: block;
   height: 42vh;
@@ -95,7 +100,7 @@ footer::after {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0%, transparent);
   bottom: 0;
   left: 0;
-  z-index: -1;
+  z-index: 0;
 }
 
 .bg-aag-motif {
