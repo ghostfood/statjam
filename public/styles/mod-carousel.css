@@ -187,7 +187,7 @@ a.carousel-control-prev>*:hover {
     margin-left: 3px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: var(--bs-carousel-indicator-active-bg);
+    background-color: transparent;
     background-clip: padding-box;
     border: 1px solid rgba(255,255,255,.5);
     opacity: .75 !important;
