@@ -67,6 +67,9 @@
   --auto-grid-min-size: 21rem; 
     grid-gap: .35rem;
 }
+.auto-grid-4 {
+  --auto-grid-min-size: 18rem;
+}
 .auto-grid-3.auto-grid-gap1 {
   --auto-grid-min-size: 100%; 
   grid-gap: 1rem;
