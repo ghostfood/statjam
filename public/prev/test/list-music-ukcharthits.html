@@ -90,7 +90,7 @@
 <div class="col-xs-12">
 <h3 id="everychartentry">Chart entries 1952-2024</h3>
 <div class="align-left width-100-then-50">
-<p class="phs mrmd width-95">This table attempts to include all singles that entered the <a href="https://www.officialcharts.com/charts/singles-chart/19521114/7501/">official UK singles chart</a> since its inception in 1952. Data is currently provided and maintained as <a href="../../data/array-ukcharthits.txt">a single .txt file</a> (approx. 3.9Mb) parsed as JSON and updated occasionally. Tracklistings for all Extended Play (EP) releases are being included. Excluded are re-entries by releases within the same calendar year as their first entry (or first re-entry within a subsequent year) as well as re-entries in January of singles that had only fallen out of the chart during the previous December (in more recent years due to the deluge of Christmas-related singles re-entering the chart annually). 
+<p class="phs mrmd width-95">This table attempts to include all singles that entered the <a href="https://www.officialcharts.com/charts/singles-chart/19521114/7501/">official UK singles chart</a> since its inception in 1952. Data is currently provided and maintained as <a href="../../data/array-ukcharthits.min.json">a single .json file</a> (approx. 3.9Mb) parsed as JSON and updated occasionally. Tracklistings for all Extended Play (EP) releases are being included. Excluded are re-entries by releases within the same calendar year as their first entry (or first re-entry within a subsequent year) as well as re-entries in January of singles that had only fallen out of the chart during the previous December (in more recent years due to the deluge of Christmas-related singles re-entering the chart annually). 
 </div>
 
 <div class="align-left width-100-then-50">
@@ -897,7 +897,7 @@
   $(document).ready(function() {
     $('#ukcharthits').DataTable( {
         "dom": '<flip<t>ip>',
-        "ajax": "../../data/array-ukcharthits.txt",
+        "ajax": "../../data/array-ukcharthits.min.json",
         "deferRender": true,
         "order": [[0, "asc"]],
         "iDisplayLength": 30,
