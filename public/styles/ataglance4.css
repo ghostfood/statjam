@@ -2385,6 +2385,9 @@ a.box::after {
     border-left: 2px solid transparent;
     border-radius: 2px;
 }
+.link-button::after {
+    bottom:15px
+}
 li.align-center a:hover .subject-title-md::after {
     border-top: 2px solid rgba(255,255,255,.75);
     border-right: 2px solid rgba(255,255,255,.75);
@@ -2476,37 +2479,6 @@ a.box.box-btn:hover {
 .link-button.collapse::after {
     transform: unset;
 }
-/*
-.link-button-copy::before,
-.link-button-copy::after {
-    display: inline-block;
-    content: "";
-    box-sizing: border-box;
-    text-align: center;
-    margin: 0;
-    position: absolute;
-    top: 13px;
-    right: 15px;
-    width:16px;
-    height: 8px;
-    border:2px solid;
-    border-radius:5px;
-}
-.link-button-copy::before {
-    top:12px !important;
-    right:16px !important;
-    height:10px !important;
-    width:15px !important;
-    transform: rotate(-45deg);
-    z-index:1;
-}
-.link-button-copy::after {
-    top: 16px !important;
-    right: 19px !important;
-    height: 15px !important;
-    width: 10px !important;
-    z-index:0;
-}*/
 
 .link-button-copy:active::before, 
 .link-button-copy:active::after {
@@ -3109,7 +3081,7 @@ header input#Input1:focus {
     width: 100%;
     height: 100%;
     border-radius: inherit;
-background: linear-gradient(to bottom,  rgba(0,0,0,.9) 0%, rgba(0,0,0,0) 40%,rgba(0,0,0,.75) 80%);
+background: linear-gradient(120deg,  rgba(0,0,0,.9) 10%, rgba(0,0,0,.65) 30%, rgba(0,0,0,.25) 65%, rgba(0,0,0,0) 100%);
 
 }
 .box.brxl {
@@ -3123,7 +3095,12 @@ background: linear-gradient(to bottom,  rgba(0,0,0,.9) 0%, rgba(0,0,0,0) 40%,rgb
 .card-body-md {
     min-height: 200px;
 }
-
+.card-body h4 {
+    text-align: left;
+    max-width: 60%;
+    font-size: 24px;
+    padding: 0 .25em !important;
+}
 .text-up4 {
     font-size: 200%;
     line-height: 1.1;
@@ -3569,21 +3546,20 @@ span.text-fainter {
     text-overflow:ellipsis;
     white-space:nowrap;
     overflow:hidden;
-    padding: 10px 30px 5px 15px;
+    padding: 5px 30px 5px 15px;
     font-size: 1em;
     margin:0;
 }
 .link-button-copy::before {
     top: 10px !important;
     right: 12px !important;
-    height: 10px !important;
-    }
-.link-button-copy::after {
-    top: 14px !important;
-    right: 15px !important;
-    height: 15px !important;
-    }
+    height: 12px !important;
+    width: 12px !important;
+}
 
+.link-button-copy::after {
+    top: 10px !important;
+}
 
 td>.text-up2.mhx.pvx {
     padding:0;
@@ -4289,7 +4265,12 @@ ul.boxed > li { /* removed div.mix */
 .align-center-then-left {
     text-align:left !important;
 }
-
+.card-body h4 {
+    text-align: left;
+    max-width: 40%;
+    font-size: 24px;
+    padding: 0 .25em !important;
+}
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 } 
