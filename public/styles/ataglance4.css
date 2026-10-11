@@ -4267,7 +4267,7 @@ ul.boxed > li { /* removed div.mix */
 }
 .card-body h4 {
     text-align: left;
-    max-width: 40%;
+    max-width: 45%;
     font-size: 24px;
     padding: 0 .25em !important;
 }
