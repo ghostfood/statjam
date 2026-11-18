@@ -91,17 +91,6 @@ footer > * {
   flex: 1 100%;
 }
 
-footer::after {
-  position: absolute;
-  content: '';
-  display: block;
-  height: 42vh;
-  width: 100%;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0%, transparent);
-  bottom: 0;
-  left: 0;
-  z-index: 0;
-}
 
 .bg-aag-motif {
   background-image: url(/img/backgrounds/ataglance-home-banner.svg);
