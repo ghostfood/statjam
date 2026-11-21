@@ -254,6 +254,9 @@ h4.small, h4 .small, h5 {
 .display-1,.display-2 {
     line-height: 1.05;
 }
+.display-3 {
+    line-height: 1;
+}
 hr {
     border-top:1px solid rgba(255,255,255,.3);
 }
@@ -310,6 +313,10 @@ footer p {
 p.lead {
     font-size:1.2em;
     font-family: 'Inter Tight';
+}
+h2 + p.lead {
+    margin-top: 3em;
+    width:75%;
 }
 li {
     list-style-position: outside;
